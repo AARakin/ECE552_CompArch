@@ -1,0 +1,8 @@
+	LLB R6, 0x0A
+	LHB R6, 0x00
+	SUB R1, R6, R2
+	BR 000, R6
+	HLT
+b1:	ADD R4, R6, R2
+	SUB R4, R6, R2
+	HLT

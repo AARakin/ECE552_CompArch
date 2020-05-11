@@ -1,0 +1,260 @@
+<<<<<<< HEAD
+module cpu(clk, rst_n, hlt, pc);
+input clk, rst_n;
+output hlt;
+output [15:0] pc;
+
+///////////////////
+// PC Management //
+///////////////////
+// Internal Signals for PC
+wire [15:0] pc_out; // New value for the PC
+wire [2:0] C; // Condition codes set 
+wire [2:0] F; // Flags F[2] = Z, F[1] = V, F[0] = N
+wire [15:0] instr; // Decoded instruction set by instruction memory
+wire [3:0] opcode = instr[15:12];
+wire [15:0] read_data1, read_data2; 
+// PC Flip Flop
+dff_16bit PC_counter(.q(pc), .d(pc_out), .wen(1'b1), .clk(clk), .rst_n(rst_n));
+
+// PC Updating
+PC_control PC_control(.C(instr[11:9]), .Opcode(opcode), .Rs_contents(read_data1), .I(instr[8:0]), .F(F), .PC_in(pc), .PC_out(pc_out), .rst_n(rst_n));
+
+
+////////////////////////
+// Instruction Memory //
+////////////////////////
+// Internal Signals for Instruction Memory
+
+// Instantiate Instruction Memory Instance
+memory1c instr_memory(.data_out(instr), .data_in(16'b0), .addr(pc), .enable(1'b1), .wr(1'b0), .clk(clk), .rst(~rst_n));
+
+
+
+///////////////////
+// Register File //
+///////////////////
+
+// Internal Signals for Register File
+// Will write a new register unless command is SW, B, BR, or HLT
+// SW: 	1001 	B: 	1100	BR:	1101	HLT:	1111
+wire writeback_register = ~(opcode == 4'b1001 | opcode == 4'b1100 | opcode == 4'b1101 | opcode == 4'b1111);
+
+wire [15:0] dst_data, pre_dst_data, alu_mem_write_data, lw_dst_data;
+wire [3:0] dst_register;
+wire [3:0] src_register1;
+wire [3:0] src_register2;
+
+// LLB and LHB logic only
+
+// special instructions in form : opcode rd imm (read-modify-write)
+// 	Reg[dddd] = (Reg[dddd] & 0xFF00) | uuuuuuuu for LLB
+// 	Reg[dddd] = (Reg[dddd] & 0x00FF) | (uuuuuuuu << 8) for LHB.
+wire [15:0] dst_data_load_byte;
+assign dst_data_load_byte = (opcode == 4'b1010) ? (read_data1 & 16'hff00) | instr[7:0] :
+		       (read_data1 & 16'h00ff) | (instr[7:0] << 4'h8); 
+
+assign dst_register = instr[11:8];
+assign dst_data = (opcode == 4'b1010 | opcode == 4'b1011) ? dst_data_load_byte : 
+		  (opcode == 4'b1000) ? lw_dst_data : 
+	          pre_dst_data;
+
+// PCS dst_data
+assign pre_dst_data = (opcode == 4'b1110) ? pc_out : alu_mem_write_data; // TODO Consolidate this logic into nested tertiatry statements
+
+// read reg = dest reg for LLB and LHB.
+assign src_register1 = (opcode == 4'b1010 | opcode == 4'b1011) ? instr[11:8] : instr[7:4];
+// Rt instr[11:8] is read from in SW instead of written to
+assign src_register2 = (opcode == 4'b1001) ? instr[11:8] : instr[3:0];
+
+// All logic
+
+// Instantiate Register File
+RegisterFile RegFile(.clk(clk), .rst(~rst_n), .SrcReg1(src_register1), 
+		    .SrcReg2(src_register2), .DstReg(dst_register), 
+		    .WriteReg(writeback_register), .DstData(dst_data), 
+		    .SrcData1(read_data1), .SrcData2(read_data2));
+
+//////////////////
+// Sign Extend //
+////////////////
+
+// for loads and stores
+wire [15:0] se_offset;
+
+assign se_offset = {{12{instr[3]}}, instr << 1'b1};
+
+////////////////
+// ALUSrc Mux //
+////////////////
+
+// choose sign extended immediate for lw and sw
+// choose unsigned immediate for sll, sra, and ror
+// else choose contents of rt
+wire [15:0] aluSrc;
+
+assign aluSrc = (opcode == 4'b1000 | opcode == 4'b1001) ? se_offset :
+		(opcode == 4'b0100 | opcode == 4'b0101 | opcode == 4'b0110) ? instr[3:0] :
+		read_data2;
+
+/////////
+// ALU //
+/////////
+// Internal Signals for ALU
+wire [15:0] aluResult;
+wire [15:0] alu_input2;
+wire ALUSrc;
+wire ALUerror;
+// Setup ALU inputs
+assign alu_input2 = read_data2; // TODO Add stuff for immediate
+// Instantiate ALU
+ALU alu0(.ALU_Out(aluResult), .Error(ALUerror), .ALU_In1(read_data1), .ALU_In2(alu_input2), .opcode(opcode), .F(F), .rst_n(rst_n)); 
+
+
+/////////////////
+// Data Memory //
+/////////////////
+// Internal Signals for data memory
+wire memRead;  // Is memory being read, one bit signal (1 means yes, 0 means no)
+wire memReadorWrite;
+wire memWrite;
+wire [15:0] writeData;
+
+// TODO: use ALU when ready
+wire [15:0] memAddr, write_mem_data;
+assign memAddr = read_data1 + {{12{instr[3]}}, instr[3:0] << 1'b1};
+
+// Instantiate Data Memory
+memory1c data_memory(.data_out(lw_dst_data), .data_in(read_data2), .addr(memAddr), .enable(1'b1), .wr(opcode[0]), .clk(clk), .rst(~rst_n));
+
+endmodule
+=======
+module cpu(clk, rst_n, hlt, pc);
+input clk, rst_n;
+output hlt;
+output [15:0] pc;
+
+///////////////////
+// PC Management //
+///////////////////
+// Internal Signals for PC
+wire [15:0] pc_out; // New value for the PC
+wire [2:0] C; // Condition codes set 
+wire [2:0] F; // Flags F[2] = Z, F[1] = V, F[0] = N
+wire [15:0] instr; // Decoded instruction set by instruction memory
+wire [3:0] opcode = instr[15:12];
+wire [15:0] read_data1, read_data2; 
+// PC Flip Flop
+dff_16bit PC_counter(.q(pc), .d(pc_out), .wen(1'b1), .clk(clk), .rst_n(rst_n));
+
+// PC Updating
+PC_control PC_control(.C(instr[11:9]), .Opcode(opcode), .Rs_contents(read_data1), .I(instr[8:0]), .F(F), .PC_in(pc), .PC_out(pc_out), .rst_n(rst_n));
+
+
+////////////////////////
+// Instruction Memory //
+////////////////////////
+// Internal Signals for Instruction Memory
+
+// Instantiate Instruction Memory Instance
+memory1c instr_memory(.data_out(instr), .data_in(16'b0), .addr(pc), .enable(1'b1), .wr(1'b0), .clk(clk), .rst(~rst_n));
+
+
+///////////////////
+// Register File //
+///////////////////
+
+// Internal Signals for Register File
+// Will write a new register unless command is SW, B, BR, or HLT
+// SW: 	1001 	B: 	1100	BR:	1101	HLT:	1111
+wire writeback_register = ~(opcode == 4'b1001 | opcode == 4'b1100 | opcode == 4'b1101 | opcode == 4'b1111);
+
+wire [15:0] dst_data, pre_dst_data, alu_mem_write_data, lw_dst_data;
+wire [3:0] dst_register;
+wire [3:0] src_register1;
+wire [3:0] src_register2;
+
+// LLB and LHB logic only
+
+// special instructions in form : opcode rd imm (read-modify-write)
+// 	Reg[dddd] = (Reg[dddd] & 0xFF00) | uuuuuuuu for LLB
+// 	Reg[dddd] = (Reg[dddd] & 0x00FF) | (uuuuuuuu << 8) for LHB.
+wire [15:0] dst_data_load_byte;
+assign dst_data_load_byte = (opcode == 4'b1010) ? (read_data1 & 16'hff00) | instr[7:0] :
+		       (read_data1 & 16'h00ff) | (instr[7:0] << 4'h8); 
+
+assign dst_register = instr[11:8];
+assign dst_data = (opcode == 4'b1010 | opcode == 4'b1011) ? dst_data_load_byte : 
+		  (opcode == 4'b1000) ? lw_dst_data : 
+	          pre_dst_data;
+
+// PCS dst_data
+assign pre_dst_data = (opcode == 4'b1110) ? pc_out : alu_mem_write_data; // TODO Consolidate this logic into nested tertiatry statements
+
+// read reg = dest reg for LLB and LHB.
+assign src_register1 = (opcode == 4'b1010 | opcode == 4'b1011) ? instr[11:8] : instr[7:4];
+// Rt instr[11:8] is read from in SW instead of written to
+assign src_register2 = (opcode == 4'b1001) ? instr[11:8] : instr[3:0];
+
+// All logic
+
+// Instantiate Register File
+RegisterFile RegFile(.clk(clk), .rst(~rst_n), .SrcReg1(src_register1), 
+		    .SrcReg2(src_register2), .DstReg(dst_register), 
+		    .WriteReg(writeback_register), .DstData(dst_data), 
+		    .SrcData1(read_data1), .SrcData2(read_data2));
+
+
+//////////////////
+// Sign Extend //
+////////////////
+
+// for loads and stores
+wire [15:0] se_offset;
+
+assign se_offset = {{12{instr[3]}}, instr[3:0] << 1'b1};
+
+
+////////////////
+// ALUSrc Mux //
+////////////////
+
+// choose sign extended immediate for lw and sw
+// choose unsigned immediate for sll, sra, and ror
+// else choose contents of rt
+wire [15:0] alu_input2;
+
+assign alu_input2 = (opcode == 4'b1000 | opcode == 4'b1001) ? se_offset :
+		(opcode == 4'b0100 | opcode == 4'b0101 | opcode == 4'b0110) ? {{12{1'b0}}, instr[3:0]} :
+		read_data2;
+
+
+/////////
+// ALU //
+/////////
+// Internal Signals for ALU
+wire [15:0] aluResult;
+wire [2:0] ALUOp;
+wire ALUerror;
+
+// LW and SW will just be addition
+assign ALUOp = (opcode == 4'b1000 | opcode == 4'b1001) ? 3'b000 : opcode[2:0];
+
+// Instantiate ALU
+ALU alu0(.ALU_Out(aluResult), .Error(ALUerror), .ALU_In1(read_data1), .ALU_In2(alu_input2), .opcode(ALUOp), .F(F)); 
+
+
+/////////////////
+// Data Memory //
+/////////////////
+// Internal Signals for data memory
+wire memRead;  // Is memory being read, one bit signal (1 means yes, 0 means no)
+wire memReadorWrite;
+wire memWrite;
+wire [15:0] writeData;
+
+// Instantiate Data Memory
+memory1c data_memory(.data_out(lw_dst_data), .data_in(read_data2), .addr(aluResult), .enable(1'b1), .wr(opcode[0]), .clk(clk), .rst(~rst_n));
+
+endmodule
+>>>>>>> master

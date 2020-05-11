@@ -1,0 +1,3051 @@
+# Loading project ECE552_Phase2
+# Compile of addsub_4bit.v was successful.
+# Compile of ALU.v was successful.
+# Compile of BitCell.sv was successful.
+# Compile of CLA_4bit.sv was successful.
+# Compile of CLA_8bit.sv was successful.
+# Compile of CLA_8bit.v was successful.
+# Compile of CLA_16bit.sv was successful.
+# Compile of CLA_16bit.v was successful.
+# Compile of cpu.v failed with 1 errors.
+# Compile of D-Flip-Flop.v was successful.
+# Compile of dff_4_bit.v was successful.
+# Compile of dff_16_bit.sv was successful.
+# Compile of dff_32_bit.v was successful.
+# Compile of EX_MEM_flop.v was successful.
+# Compile of flag_register.v was successful.
+# Compile of ForwardingUnit.v was successful.
+# Compile of full_adder_1bit.v was successful.
+# Compile of Hazard_Detection.v was successful.
+# Compile of ID_EX_flop.v was successful.
+# Compile of IF_ID_flop.v was successful.
+# Compile of MEM_WB_flop.v was successful.
+# Compile of memory.v was successful.
+# Compile of pc_control.sv was successful.
+# Compile of PC_control_b.sv was successful.
+# Compile of PC_control_br.sv was successful.
+# Compile of PFA.sv was successful.
+# Compile of PSA_16bit.sv was successful.
+# Compile of ReadDecoder_4_16.sv was successful.
+# Compile of RED_16bit.v was successful.
+# Compile of Register.sv was successful.
+# Compile of RegisterFile.sv was successful.
+# Compile of Rotator_16bit.v was successful.
+# Compile of Shifter.v was successful.
+# Compile of WriteDecoder_4_16.sv was successful.
+# Compile of project-phase2-testbench.v was successful.
+# Compile of DataArray.v was successful.
+# Compile of MetaDataArray.v was successful.
+# Compile of project-phase3-testbench.v was successful.
+# Compile of multicycle_memory.v was successful.
+# Compile of adder_3_bit.v was successful.
+# Compile of cache.v was successful.
+# Compile of decode7to128.v was successful.
+# Compile of decode3to8.v was successful.
+# Compile of D-Flip-Flop_3_Bit.v was successful.
+# Compile of decode6to64.v was successful.
+# 45 compiles, 1 failed with 1 error.
+# Compile of addsub_4bit.v was successful.
+# Compile of ALU.v was successful.
+# Compile of BitCell.sv was successful.
+# Compile of CLA_4bit.sv was successful.
+# Compile of CLA_8bit.sv was successful.
+# Compile of CLA_8bit.v was successful.
+# Compile of CLA_16bit.sv was successful.
+# Compile of CLA_16bit.v was successful.
+# Compile of cpu.v was successful.
+# Compile of D-Flip-Flop.v was successful.
+# Compile of dff_4_bit.v was successful.
+# Compile of dff_16_bit.sv was successful.
+# Compile of dff_32_bit.v was successful.
+# Compile of EX_MEM_flop.v was successful.
+# Compile of flag_register.v was successful.
+# Compile of ForwardingUnit.v was successful.
+# Compile of full_adder_1bit.v was successful.
+# Compile of Hazard_Detection.v was successful.
+# Compile of ID_EX_flop.v was successful.
+# Compile of IF_ID_flop.v was successful.
+# Compile of MEM_WB_flop.v was successful.
+# Compile of memory.v was successful.
+# Compile of pc_control.sv was successful.
+# Compile of PC_control_b.sv was successful.
+# Compile of PC_control_br.sv was successful.
+# Compile of PFA.sv was successful.
+# Compile of PSA_16bit.sv was successful.
+# Compile of ReadDecoder_4_16.sv was successful.
+# Compile of RED_16bit.v was successful.
+# Compile of Register.sv was successful.
+# Compile of RegisterFile.sv was successful.
+# Compile of Rotator_16bit.v was successful.
+# Compile of Shifter.v was successful.
+# Compile of WriteDecoder_4_16.sv was successful.
+# Compile of project-phase2-testbench.v was successful.
+# Compile of DataArray.v was successful.
+# Compile of MetaDataArray.v was successful.
+# Compile of project-phase3-testbench.v was successful.
+# Compile of multicycle_memory.v was successful.
+# Compile of adder_3_bit.v was successful.
+# Compile of cache.v was successful.
+# Compile of decode7to128.v was successful.
+# Compile of decode3to8.v was successful.
+# Compile of D-Flip-Flop_3_Bit.v was successful.
+# Compile of decode6to64.v was successful.
+# 45 compiles, 0 failed with no errors.
+# Compile of addsub_4bit.v was successful.
+# Compile of ALU.v was successful.
+# Compile of BitCell.sv was successful.
+# Compile of CLA_4bit.sv was successful.
+# Compile of CLA_8bit.sv was successful.
+# Compile of CLA_8bit.v was successful.
+# Compile of CLA_16bit.sv was successful.
+# Compile of CLA_16bit.v was successful.
+# Compile of cpu.v was successful.
+# Compile of D-Flip-Flop.v was successful.
+# Compile of dff_4_bit.v was successful.
+# Compile of dff_16_bit.sv was successful.
+# Compile of dff_32_bit.v was successful.
+# Compile of EX_MEM_flop.v was successful.
+# Compile of flag_register.v was successful.
+# Compile of ForwardingUnit.v was successful.
+# Compile of full_adder_1bit.v was successful.
+# Compile of Hazard_Detection.v was successful.
+# Compile of ID_EX_flop.v was successful.
+# Compile of IF_ID_flop.v was successful.
+# Compile of MEM_WB_flop.v was successful.
+# Compile of memory.v was successful.
+# Compile of pc_control.sv was successful.
+# Compile of PC_control_b.sv was successful.
+# Compile of PC_control_br.sv was successful.
+# Compile of PFA.sv was successful.
+# Compile of PSA_16bit.sv was successful.
+# Compile of ReadDecoder_4_16.sv was successful.
+# Compile of RED_16bit.v was successful.
+# Compile of Register.sv was successful.
+# Compile of RegisterFile.sv was successful.
+# Compile of Rotator_16bit.v was successful.
+# Compile of Shifter.v was successful.
+# Compile of WriteDecoder_4_16.sv was successful.
+# Compile of project-phase2-testbench.v was successful.
+# Compile of DataArray.v was successful.
+# Compile of MetaDataArray.v was successful.
+# Compile of project-phase3-testbench.v was successful.
+# Compile of multicycle_memory.v was successful.
+# Compile of adder_3_bit.v was successful.
+# Compile of cache.v was successful.
+# Compile of decode7to128.v was successful.
+# Compile of decode3to8.v was successful.
+# Compile of D-Flip-Flop_3_Bit.v was successful.
+# Compile of decode6to64.v was successful.
+# 45 compiles, 0 failed with no errors.
+vsim work.cpu_ptb
+# vsim work.cpu_ptb 
+# Start time: 07:31:14 on Dec 08,2019
+# //  ModelSim DE 2019.2 Apr 16 2019 Linux 4.9.0-11-amd64
+# //
+# //  Copyright 1991-2019 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim DE and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading work.cpu_ptb
+# Loading work.cpu
+# Loading sv_std.std
+# Loading work.dff_16bit
+# Loading work.dff
+# Loading work.CLA_16bit
+# Loading work.CLA_4bit
+# Loading work.PFA
+# Loading work.cache
+# Loading work.adder_4bit_safe
+# Loading work.full_adder_1bit
+# Loading work.decoder7to128
+# Loading work.decoder6to64
+# Loading work.decoder3to8
+# Loading work.DataArray
+# Loading work.MetaDataArray
+# Loading work.if_id_flop
+# Loading work.PC_control
+# Loading work.PC_control_b
+# Loading work.PC_control_br
+# Loading work.hazard_detection
+# Loading work.RegisterFile
+# Loading work.WriteDecoder_4_16
+# Loading work.Shifter
+# Loading work.ReadDecoder_4_16
+# Loading work.Register
+# Loading work.BitCell
+# Loading work.id_ex_flop
+# Loading work.dff_4bit
+# Loading work.forward
+# Loading work.ALU
+# Loading work.RED_16bit
+# Loading work.CLA_8bit
+# Loading work.Rotator
+# Loading work.PSA_16bit
+# Loading work.flag_register
+# Loading work.ex_mem_flop
+# Loading work.memory4c
+# Loading work.mem_wb_flop
+# Loading work.Block
+# Loading work.MBlock
+# Loading work.DWord
+# Loading work.MCell
+# Loading work.DCell
+add wave  \
+sim:/cpu_ptb/DUT/clk \
+sim:/cpu_ptb/DUT/ex_instr \
+sim:/cpu_ptb/DUT/id_instr \
+sim:/cpu_ptb/DUT/if_instr \
+sim:/cpu_ptb/DUT/mem_instr
+add wave  \
+sim:/cpu_ptb/DUT/wb_instr
+add wave  \
+sim:/cpu_ptb/DUT/alu_mem_write_data \
+sim:/cpu_ptb/DUT/arbitration \
+sim:/cpu_ptb/DUT/br_cnt_out \
+sim:/cpu_ptb/DUT/branch_stall \
+sim:/cpu_ptb/DUT/bTaken \
+sim:/cpu_ptb/DUT/C \
+sim:/cpu_ptb/DUT/F \
+sim:/cpu_ptb/DUT/pc \
+sim:/cpu_ptb/DUT/pc_flop_input \
+sim:/cpu_ptb/DUT/pc_inc_0 \
+sim:/cpu_ptb/DUT/pc_inc_2 \
+sim:/cpu_ptb/DUT/pc_output \
+sim:/cpu_ptb/DUT/rst_n \
+sim:/cpu_ptb/DUT/stall_n \
+sim:/cpu_ptb/DUT/wb_mem_alu_sel_data \
+sim:/cpu_ptb/DUT/wb_reg_dst_mux \
+sim:/cpu_ptb/DUT/wb_writeback_register
+add wave  \
+sim:/cpu_ptb/DUT/data_fsm_busy \
+sim:/cpu_ptb/DUT/instr_fsm_busy
+run -continue
+# Hello world...simulation starting
+# See verilogsim.plog and verilogsim.ptrace for output
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# Compile of addsub_4bit.v was successful.
+# Compile of ALU.v was successful.
+# Compile of BitCell.sv was successful.
+# Compile of CLA_4bit.sv was successful.
+# Compile of CLA_8bit.sv was successful.
+# Compile of CLA_8bit.v was successful.
+# Compile of CLA_16bit.sv was successful.
+# Compile of CLA_16bit.v was successful.
+# Compile of cpu.v failed with 1 errors.
+# Compile of D-Flip-Flop.v was successful.
+# Compile of dff_4_bit.v was successful.
+# Compile of dff_16_bit.sv was successful.
+# Compile of dff_32_bit.v was successful.
+# Compile of EX_MEM_flop.v was successful.
+# Compile of flag_register.v was successful.
+# Compile of ForwardingUnit.v was successful.
+# Compile of full_adder_1bit.v was successful.
+# Compile of Hazard_Detection.v was successful.
+# Compile of ID_EX_flop.v was successful.
+# Compile of IF_ID_flop.v was successful.
+# Compile of MEM_WB_flop.v was successful.
+# Compile of memory.v was successful.
+# Compile of pc_control.sv failed with 2 errors.
+# Compile of PC_control_b.sv was successful.
+# Compile of PC_control_br.sv was successful.
+# Compile of PFA.sv was successful.
+# Compile of PSA_16bit.sv was successful.
+# Compile of ReadDecoder_4_16.sv was successful.
+# Compile of RED_16bit.v was successful.
+# Compile of Register.sv was successful.
+# Compile of RegisterFile.sv was successful.
+# Compile of Rotator_16bit.v was successful.
+# Compile of Shifter.v was successful.
+# Compile of WriteDecoder_4_16.sv was successful.
+# Compile of project-phase2-testbench.v was successful.
+# Compile of DataArray.v was successful.
+# Compile of MetaDataArray.v was successful.
+# Compile of project-phase3-testbench.v was successful.
+# Compile of multicycle_memory.v was successful.
+# Compile of adder_3_bit.v was successful.
+# Compile of cache.v was successful.
+# Compile of decode7to128.v was successful.
+# Compile of decode3to8.v was successful.
+# Compile of D-Flip-Flop_3_Bit.v was successful.
+# Compile of decode6to64.v was successful.
+# 45 compiles, 2 failed with 3 errors.
+# Compile of addsub_4bit.v was successful.
+# Compile of ALU.v was successful.
+# Compile of BitCell.sv was successful.
+# Compile of CLA_4bit.sv was successful.
+# Compile of CLA_8bit.sv was successful.
+# Compile of CLA_8bit.v was successful.
+# Compile of CLA_16bit.sv was successful.
+# Compile of CLA_16bit.v was successful.
+# Compile of cpu.v failed with 1 errors.
+# Compile of D-Flip-Flop.v was successful.
+# Compile of dff_4_bit.v was successful.
+# Compile of dff_16_bit.sv was successful.
+# Compile of dff_32_bit.v was successful.
+# Compile of EX_MEM_flop.v was successful.
+# Compile of flag_register.v was successful.
+# Compile of ForwardingUnit.v was successful.
+# Compile of full_adder_1bit.v was successful.
+# Compile of Hazard_Detection.v was successful.
+# Compile of ID_EX_flop.v was successful.
+# Compile of IF_ID_flop.v was successful.
+# Compile of MEM_WB_flop.v was successful.
+# Compile of memory.v was successful.
+# Compile of pc_control.sv was successful.
+# Compile of PC_control_b.sv was successful.
+# Compile of PC_control_br.sv was successful.
+# Compile of PFA.sv was successful.
+# Compile of PSA_16bit.sv was successful.
+# Compile of ReadDecoder_4_16.sv was successful.
+# Compile of RED_16bit.v was successful.
+# Compile of Register.sv was successful.
+# Compile of RegisterFile.sv was successful.
+# Compile of Rotator_16bit.v was successful.
+# Compile of Shifter.v was successful.
+# Compile of WriteDecoder_4_16.sv was successful.
+# Compile of project-phase2-testbench.v was successful.
+# Compile of DataArray.v was successful.
+# Compile of MetaDataArray.v was successful.
+# Compile of project-phase3-testbench.v was successful.
+# Compile of multicycle_memory.v was successful.
+# Compile of adder_3_bit.v was successful.
+# Compile of cache.v was successful.
+# Compile of decode7to128.v was successful.
+# Compile of decode3to8.v was successful.
+# Compile of D-Flip-Flop_3_Bit.v was successful.
+# Compile of decode6to64.v was successful.
+# 45 compiles, 1 failed with 1 error.
+# Compile of addsub_4bit.v was successful.
+# Compile of ALU.v was successful.
+# Compile of BitCell.sv was successful.
+# Compile of CLA_4bit.sv was successful.
+# Compile of CLA_8bit.sv was successful.
+# Compile of CLA_8bit.v was successful.
+# Compile of CLA_16bit.sv was successful.
+# Compile of CLA_16bit.v was successful.
+# Compile of cpu.v was successful.
+# Compile of D-Flip-Flop.v was successful.
+# Compile of dff_4_bit.v was successful.
+# Compile of dff_16_bit.sv was successful.
+# Compile of dff_32_bit.v was successful.
+# Compile of EX_MEM_flop.v was successful.
+# Compile of flag_register.v was successful.
+# Compile of ForwardingUnit.v was successful.
+# Compile of full_adder_1bit.v was successful.
+# Compile of Hazard_Detection.v was successful.
+# Compile of ID_EX_flop.v was successful.
+# Compile of IF_ID_flop.v was successful.
+# Compile of MEM_WB_flop.v was successful.
+# Compile of memory.v was successful.
+# Compile of pc_control.sv was successful.
+# Compile of PC_control_b.sv was successful.
+# Compile of PC_control_br.sv was successful.
+# Compile of PFA.sv was successful.
+# Compile of PSA_16bit.sv was successful.
+# Compile of ReadDecoder_4_16.sv was successful.
+# Compile of RED_16bit.v was successful.
+# Compile of Register.sv was successful.
+# Compile of RegisterFile.sv was successful.
+# Compile of Rotator_16bit.v was successful.
+# Compile of Shifter.v was successful.
+# Compile of WriteDecoder_4_16.sv was successful.
+# Compile of project-phase2-testbench.v was successful.
+# Compile of DataArray.v was successful.
+# Compile of MetaDataArray.v was successful.
+# Compile of project-phase3-testbench.v was successful.
+# Compile of multicycle_memory.v was successful.
+# Compile of adder_3_bit.v was successful.
+# Compile of cache.v was successful.
+# Compile of decode7to128.v was successful.
+# Compile of decode3to8.v was successful.
+# Compile of D-Flip-Flop_3_Bit.v was successful.
+# Compile of decode6to64.v was successful.
+# 45 compiles, 0 failed with no errors.
+restart
+# Closing VCD file "dump.vcd"
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.cpu_ptb
+# Loading work.cpu
+# Loading work.dff_16bit
+# Loading work.dff
+# Loading work.CLA_16bit
+# Loading work.CLA_4bit
+# Loading work.PFA
+# Loading work.cache
+# Loading work.adder_4bit_safe
+# Loading work.full_adder_1bit
+# Loading work.decoder7to128
+# Loading work.decoder6to64
+# Loading work.decoder3to8
+# Loading work.DataArray
+# Loading work.MetaDataArray
+# Loading work.if_id_flop
+# Loading work.PC_control
+# Loading work.PC_control_b
+# Loading work.PC_control_br
+# Loading work.hazard_detection
+# Loading work.RegisterFile
+# Loading work.WriteDecoder_4_16
+# Loading work.Shifter
+# Loading work.ReadDecoder_4_16
+# Loading work.Register
+# Loading work.BitCell
+# Loading work.id_ex_flop
+# Loading work.dff_4bit
+# Loading work.forward
+# Loading work.ALU
+# Loading work.RED_16bit
+# Loading work.CLA_8bit
+# Loading work.Rotator
+# Loading work.PSA_16bit
+# Loading work.flag_register
+# Loading work.ex_mem_flop
+# Loading work.memory4c
+# Loading work.mem_wb_flop
+# Loading work.Block
+# Loading work.MBlock
+# Loading work.DWord
+# Loading work.MCell
+# Loading work.DCell
+run -all
+# Hello world...simulation starting
+# See verilogsim.plog and verilogsim.ptrace for output
+restart
+# Closing VCD file "dump.vcd"
+run
+# Hello world...simulation starting
+# See verilogsim.plog and verilogsim.ptrace for output
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+restart
+# Closing VCD file "dump.vcd"
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run -all
+# Hello world...simulation starting
+# See verilogsim.plog and verilogsim.ptrace for output
+restart
+restart
+# Closing VCD file "dump.vcd"
+run
+# Hello world...simulation starting
+# See verilogsim.plog and verilogsim.ptrace for output
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+restart
+# Closing VCD file "dump.vcd"
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Compile of addsub_4bit.v was successful.
+# Compile of ALU.v was successful.
+# Compile of BitCell.sv was successful.
+# Compile of CLA_4bit.sv was successful.
+# Compile of CLA_8bit.sv was successful.
+# Compile of CLA_8bit.v was successful.
+# Compile of CLA_16bit.sv was successful.
+# Compile of CLA_16bit.v was successful.
+# Compile of cpu.v was successful.
+# Compile of D-Flip-Flop.v was successful.
+# Compile of dff_4_bit.v was successful.
+# Compile of dff_16_bit.sv was successful.
+# Compile of dff_32_bit.v was successful.
+# Compile of EX_MEM_flop.v was successful.
+# Compile of flag_register.v was successful.
+# Compile of ForwardingUnit.v was successful.
+# Compile of full_adder_1bit.v was successful.
+# Compile of Hazard_Detection.v was successful.
+# Compile of ID_EX_flop.v was successful.
+# Compile of IF_ID_flop.v was successful.
+# Compile of MEM_WB_flop.v was successful.
+# Compile of memory.v was successful.
+# Compile of pc_control.sv was successful.
+# Compile of PC_control_b.sv was successful.
+# Compile of PC_control_br.sv was successful.
+# Compile of PFA.sv was successful.
+# Compile of PSA_16bit.sv was successful.
+# Compile of ReadDecoder_4_16.sv was successful.
+# Compile of RED_16bit.v was successful.
+# Compile of Register.sv was successful.
+# Compile of RegisterFile.sv was successful.
+# Compile of Rotator_16bit.v was successful.
+# Compile of Shifter.v was successful.
+# Compile of WriteDecoder_4_16.sv was successful.
+# Compile of project-phase2-testbench.v was successful.
+# Compile of DataArray.v was successful.
+# Compile of MetaDataArray.v was successful.
+# Compile of project-phase3-testbench.v was successful.
+# Compile of multicycle_memory.v was successful.
+# Compile of adder_3_bit.v was successful.
+# Compile of cache.v was successful.
+# Compile of decode7to128.v was successful.
+# Compile of decode3to8.v was successful.
+# Compile of D-Flip-Flop_3_Bit.v was successful.
+# Compile of decode6to64.v was successful.
+# 45 compiles, 0 failed with no errors.
+run
+# Hello world...simulation starting
+# See verilogsim.plog and verilogsim.ptrace for output
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+add wave  \
+sim:/cpu_ptb/DUT/mem_addr \
+sim:/cpu_ptb/DUT/mem_to_cache
+restart
+# Closing VCD file "dump.vcd"
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.cpu_ptb
+# Loading work.cpu
+# Loading work.dff_16bit
+# Loading work.dff
+# Loading work.CLA_16bit
+# Loading work.CLA_4bit
+# Loading work.PFA
+# Loading work.cache
+# Loading work.adder_4bit_safe
+# Loading work.full_adder_1bit
+# Loading work.decoder7to128
+# Loading work.decoder6to64
+# Loading work.decoder3to8
+# Loading work.DataArray
+# Loading work.MetaDataArray
+# Loading work.if_id_flop
+# Loading work.PC_control
+# Loading work.PC_control_b
+# Loading work.PC_control_br
+# Loading work.hazard_detection
+# Loading work.RegisterFile
+# Loading work.WriteDecoder_4_16
+# Loading work.Shifter
+# Loading work.ReadDecoder_4_16
+# Loading work.Register
+# Loading work.BitCell
+# Loading work.id_ex_flop
+# Loading work.dff_4bit
+# Loading work.forward
+# Loading work.ALU
+# Loading work.RED_16bit
+# Loading work.CLA_8bit
+# Loading work.Rotator
+# Loading work.PSA_16bit
+# Loading work.flag_register
+# Loading work.ex_mem_flop
+# Loading work.memory4c
+# Loading work.mem_wb_flop
+# Loading work.Block
+# Loading work.MBlock
+# Loading work.DWord
+# Loading work.MCell
+# Loading work.DCell
+# Warning in wave window restart: (vish-4014) No objects found matching '/cpu_ptb/DUT/br_cnt_out'. 
+run -continue
+# Hello world...simulation starting
+# See verilogsim.plog and verilogsim.ptrace for output
+add wave  \
+sim:/cpu_ptb/DUT/data_valid
+restart
+# Closing VCD file "dump.vcd"
+run
+# Hello world...simulation starting
+# See verilogsim.plog and verilogsim.ptrace for output
+run -continue
+restart
+# Closing VCD file "dump.vcd"
+run -continue
+# Hello world...simulation starting
+# See verilogsim.plog and verilogsim.ptrace for output
+run -all
+restart
+# Closing VCD file "dump.vcd"
+run -continue
+# Hello world...simulation starting
+# See verilogsim.plog and verilogsim.ptrace for output
+restart
+# Closing VCD file "dump.vcd"
+run
+# Hello world...simulation starting
+# See verilogsim.plog and verilogsim.ptrace for output
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+add wave  \
+sim:/cpu_ptb/DUT/instr_cache_to_mem_address \
+sim:/cpu_ptb/DUT/instr_mem_request
+restart
+# Closing VCD file "dump.vcd"
+run
+# Hello world...simulation starting
+# See verilogsim.plog and verilogsim.ptrace for output
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# Compile of addsub_4bit.v was successful.
+# Compile of ALU.v was successful.
+# Compile of BitCell.sv was successful.
+# Compile of CLA_4bit.sv was successful.
+# Compile of CLA_8bit.sv was successful.
+# Compile of CLA_8bit.v was successful.
+# Compile of CLA_16bit.sv was successful.
+# Compile of CLA_16bit.v was successful.
+# Compile of cpu.v was successful.
+# Compile of D-Flip-Flop.v was successful.
+# Compile of dff_4_bit.v was successful.
+# Compile of dff_16_bit.sv was successful.
+# Compile of dff_32_bit.v was successful.
+# Compile of EX_MEM_flop.v was successful.
+# Compile of flag_register.v was successful.
+# Compile of ForwardingUnit.v was successful.
+# Compile of full_adder_1bit.v was successful.
+# Compile of Hazard_Detection.v was successful.
+# Compile of ID_EX_flop.v was successful.
+# Compile of IF_ID_flop.v was successful.
+# Compile of MEM_WB_flop.v was successful.
+# Compile of memory.v was successful.
+# Compile of pc_control.sv was successful.
+# Compile of PC_control_b.sv was successful.
+# Compile of PC_control_br.sv was successful.
+# Compile of PFA.sv was successful.
+# Compile of PSA_16bit.sv was successful.
+# Compile of ReadDecoder_4_16.sv was successful.
+# Compile of RED_16bit.v was successful.
+# Compile of Register.sv was successful.
+# Compile of RegisterFile.sv was successful.
+# Compile of Rotator_16bit.v was successful.
+# Compile of Shifter.v was successful.
+# Compile of WriteDecoder_4_16.sv was successful.
+# Compile of project-phase2-testbench.v was successful.
+# Compile of DataArray.v was successful.
+# Compile of MetaDataArray.v was successful.
+# Compile of project-phase3-testbench.v was successful.
+# Compile of multicycle_memory.v was successful.
+# Compile of adder_3_bit.v was successful.
+# Compile of cache.v was successful.
+# Compile of decode7to128.v was successful.
+# Compile of decode3to8.v was successful.
+# Compile of D-Flip-Flop_3_Bit.v was successful.
+# Compile of decode6to64.v was successful.
+# 45 compiles, 0 failed with no errors.
+restart
+# Closing VCD file "dump.vcd"
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.cpu_ptb
+# Loading work.cpu
+# Loading work.dff_16bit
+# Loading work.dff
+# Loading work.CLA_16bit
+# Loading work.CLA_4bit
+# Loading work.PFA
+# Loading work.cache
+# Loading work.adder_4bit_safe
+# Loading work.full_adder_1bit
+# Loading work.decoder7to128
+# Loading work.decoder6to64
+# Loading work.decoder3to8
+# Loading work.DataArray
+# Loading work.MetaDataArray
+# Loading work.if_id_flop
+# Loading work.PC_control
+# Loading work.PC_control_b
+# Loading work.PC_control_br
+# Loading work.hazard_detection
+# Loading work.RegisterFile
+# Loading work.WriteDecoder_4_16
+# Loading work.Shifter
+# Loading work.ReadDecoder_4_16
+# Loading work.Register
+# Loading work.BitCell
+# Loading work.id_ex_flop
+# Loading work.dff_4bit
+# Loading work.forward
+# Loading work.ALU
+# Loading work.RED_16bit
+# Loading work.CLA_8bit
+# Loading work.Rotator
+# Loading work.PSA_16bit
+# Loading work.flag_register
+# Loading work.ex_mem_flop
+# Loading work.memory4c
+# Loading work.mem_wb_flop
+# Loading work.Block
+# Loading work.MBlock
+# Loading work.DWord
+# Loading work.MCell
+# Loading work.DCell
+run -continue
+# Hello world...simulation starting
+# See verilogsim.plog and verilogsim.ptrace for output
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run -all
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+restart
+# Closing VCD file "dump.vcd"
+run -all
+# Hello world...simulation starting
+# See verilogsim.plog and verilogsim.ptrace for output
+run -all
+# Compile of addsub_4bit.v was successful.
+# Compile of ALU.v was successful.
+# Compile of BitCell.sv was successful.
+# Compile of CLA_4bit.sv was successful.
+# Compile of CLA_8bit.sv was successful.
+# Compile of CLA_8bit.v was successful.
+# Compile of CLA_16bit.sv was successful.
+# Compile of CLA_16bit.v was successful.
+# Compile of cpu.v was successful.
+# Compile of D-Flip-Flop.v was successful.
+# Compile of dff_4_bit.v was successful.
+# Compile of dff_16_bit.sv was successful.
+# Compile of dff_32_bit.v was successful.
+# Compile of EX_MEM_flop.v was successful.
+# Compile of flag_register.v was successful.
+# Compile of ForwardingUnit.v was successful.
+# Compile of full_adder_1bit.v was successful.
+# Compile of Hazard_Detection.v was successful.
+# Compile of ID_EX_flop.v was successful.
+# Compile of IF_ID_flop.v was successful.
+# Compile of MEM_WB_flop.v was successful.
+# Compile of memory.v was successful.
+# Compile of pc_control.sv was successful.
+# Compile of PC_control_b.sv was successful.
+# Compile of PC_control_br.sv was successful.
+# Compile of PFA.sv was successful.
+# Compile of PSA_16bit.sv was successful.
+# Compile of ReadDecoder_4_16.sv was successful.
+# Compile of RED_16bit.v was successful.
+# Compile of Register.sv was successful.
+# Compile of RegisterFile.sv was successful.
+# Compile of Rotator_16bit.v was successful.
+# Compile of Shifter.v was successful.
+# Compile of WriteDecoder_4_16.sv was successful.
+# Compile of project-phase2-testbench.v was successful.
+# Compile of DataArray.v was successful.
+# Compile of MetaDataArray.v was successful.
+# Compile of project-phase3-testbench.v was successful.
+# Compile of multicycle_memory.v was successful.
+# Compile of adder_3_bit.v was successful.
+# Compile of cache.v was successful.
+# Compile of decode7to128.v was successful.
+# Compile of decode3to8.v was successful.
+# Compile of D-Flip-Flop_3_Bit.v was successful.
+# Compile of decode6to64.v was successful.
+# 45 compiles, 0 failed with no errors.
+restart
+# Closing VCD file "dump.vcd"
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.cpu_ptb
+# Loading work.cpu
+# Loading work.dff_16bit
+# Loading work.dff
+# Loading work.CLA_16bit
+# Loading work.CLA_4bit
+# Loading work.PFA
+# Loading work.cache
+# Loading work.adder_4bit_safe
+# Loading work.full_adder_1bit
+# Loading work.decoder7to128
+# Loading work.decoder6to64
+# Loading work.decoder3to8
+# Loading work.DataArray
+# Loading work.MetaDataArray
+# Loading work.if_id_flop
+# Loading work.PC_control
+# Loading work.PC_control_b
+# Loading work.PC_control_br
+# Loading work.hazard_detection
+# Loading work.RegisterFile
+# Loading work.WriteDecoder_4_16
+# Loading work.Shifter
+# Loading work.ReadDecoder_4_16
+# Loading work.Register
+# Loading work.BitCell
+# Loading work.id_ex_flop
+# Loading work.dff_4bit
+# Loading work.forward
+# Loading work.ALU
+# Loading work.RED_16bit
+# Loading work.CLA_8bit
+# Loading work.Rotator
+# Loading work.PSA_16bit
+# Loading work.flag_register
+# Loading work.ex_mem_flop
+# Loading work.memory4c
+# Loading work.mem_wb_flop
+# Loading work.Block
+# Loading work.MBlock
+# Loading work.DWord
+# Loading work.MCell
+# Loading work.DCell
+run -all
+# Hello world...simulation starting
+# See verilogsim.plog and verilogsim.ptrace for output
+# Compile of addsub_4bit.v was successful.
+# Compile of ALU.v was successful.
+# Compile of BitCell.sv was successful.
+# Compile of CLA_4bit.sv was successful.
+# Compile of CLA_8bit.sv was successful.
+# Compile of CLA_8bit.v was successful.
+# Compile of CLA_16bit.sv was successful.
+# Compile of CLA_16bit.v was successful.
+# Compile of cpu.v was successful.
+# Compile of D-Flip-Flop.v was successful.
+# Compile of dff_4_bit.v was successful.
+# Compile of dff_16_bit.sv was successful.
+# Compile of dff_32_bit.v was successful.
+# Compile of EX_MEM_flop.v was successful.
+# Compile of flag_register.v was successful.
+# Compile of ForwardingUnit.v was successful.
+# Compile of full_adder_1bit.v was successful.
+# Compile of Hazard_Detection.v was successful.
+# Compile of ID_EX_flop.v was successful.
+# Compile of IF_ID_flop.v was successful.
+# Compile of MEM_WB_flop.v was successful.
+# Compile of memory.v was successful.
+# Compile of pc_control.sv was successful.
+# Compile of PC_control_b.sv was successful.
+# Compile of PC_control_br.sv was successful.
+# Compile of PFA.sv was successful.
+# Compile of PSA_16bit.sv was successful.
+# Compile of ReadDecoder_4_16.sv was successful.
+# Compile of RED_16bit.v was successful.
+# Compile of Register.sv was successful.
+# Compile of RegisterFile.sv was successful.
+# Compile of Rotator_16bit.v was successful.
+# Compile of Shifter.v was successful.
+# Compile of WriteDecoder_4_16.sv was successful.
+# Compile of project-phase2-testbench.v was successful.
+# Compile of DataArray.v was successful.
+# Compile of MetaDataArray.v was successful.
+# Compile of project-phase3-testbench.v was successful.
+# Compile of multicycle_memory.v was successful.
+# Compile of adder_3_bit.v was successful.
+# Compile of cache.v was successful.
+# Compile of decode7to128.v was successful.
+# Compile of decode3to8.v was successful.
+# Compile of D-Flip-Flop_3_Bit.v was successful.
+# Compile of decode6to64.v was successful.
+# 45 compiles, 0 failed with no errors.
+restart
+# Closing VCD file "dump.vcd"
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.cpu_ptb
+# Loading work.cpu
+# Loading work.dff_16bit
+# Loading work.dff
+# Loading work.CLA_16bit
+# Loading work.CLA_4bit
+# Loading work.PFA
+# Loading work.cache
+# Loading work.adder_4bit_safe
+# Loading work.full_adder_1bit
+# Loading work.decoder7to128
+# Loading work.decoder6to64
+# Loading work.decoder3to8
+# Loading work.DataArray
+# Loading work.MetaDataArray
+# Loading work.if_id_flop
+# Loading work.PC_control
+# Loading work.PC_control_b
+# Loading work.PC_control_br
+# Loading work.hazard_detection
+# Loading work.RegisterFile
+# Loading work.WriteDecoder_4_16
+# Loading work.Shifter
+# Loading work.ReadDecoder_4_16
+# Loading work.Register
+# Loading work.BitCell
+# Loading work.id_ex_flop
+# Loading work.dff_4bit
+# Loading work.forward
+# Loading work.ALU
+# Loading work.RED_16bit
+# Loading work.CLA_8bit
+# Loading work.Rotator
+# Loading work.PSA_16bit
+# Loading work.flag_register
+# Loading work.ex_mem_flop
+# Loading work.memory4c
+# Loading work.mem_wb_flop
+# Loading work.Block
+# Loading work.MBlock
+# Loading work.DWord
+# Loading work.MCell
+# Loading work.DCell
+run -all
+# Hello world...simulation starting
+# See verilogsim.plog and verilogsim.ptrace for output
+# Compile of addsub_4bit.v was successful.
+# Compile of ALU.v was successful.
+# Compile of BitCell.sv was successful.
+# Compile of CLA_4bit.sv was successful.
+# Compile of CLA_8bit.sv was successful.
+# Compile of CLA_8bit.v was successful.
+# Compile of CLA_16bit.sv was successful.
+# Compile of CLA_16bit.v was successful.
+# Compile of cpu.v was successful.
+# Compile of D-Flip-Flop.v was successful.
+# Compile of dff_4_bit.v was successful.
+# Compile of dff_16_bit.sv was successful.
+# Compile of dff_32_bit.v was successful.
+# Compile of EX_MEM_flop.v was successful.
+# Compile of flag_register.v was successful.
+# Compile of ForwardingUnit.v was successful.
+# Compile of full_adder_1bit.v was successful.
+# Compile of Hazard_Detection.v was successful.
+# Compile of ID_EX_flop.v was successful.
+# Compile of IF_ID_flop.v was successful.
+# Compile of MEM_WB_flop.v was successful.
+# Compile of memory.v was successful.
+# Compile of pc_control.sv was successful.
+# Compile of PC_control_b.sv was successful.
+# Compile of PC_control_br.sv was successful.
+# Compile of PFA.sv was successful.
+# Compile of PSA_16bit.sv was successful.
+# Compile of ReadDecoder_4_16.sv was successful.
+# Compile of RED_16bit.v was successful.
+# Compile of Register.sv was successful.
+# Compile of RegisterFile.sv was successful.
+# Compile of Rotator_16bit.v was successful.
+# Compile of Shifter.v was successful.
+# Compile of WriteDecoder_4_16.sv was successful.
+# Compile of project-phase2-testbench.v was successful.
+# Compile of DataArray.v was successful.
+# Compile of MetaDataArray.v was successful.
+# Compile of project-phase3-testbench.v was successful.
+# Compile of multicycle_memory.v was successful.
+# Compile of adder_3_bit.v was successful.
+# Compile of cache.v was successful.
+# Compile of decode7to128.v was successful.
+# Compile of decode3to8.v was successful.
+# Compile of D-Flip-Flop_3_Bit.v was successful.
+# Compile of decode6to64.v was successful.
+# 45 compiles, 0 failed with no errors.
+restart
+# Closing VCD file "dump.vcd"
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.cpu_ptb
+# Loading work.cpu
+# Loading work.dff_16bit
+# Loading work.dff
+# Loading work.CLA_16bit
+# Loading work.CLA_4bit
+# Loading work.PFA
+# Loading work.cache
+# Loading work.adder_4bit_safe
+# Loading work.full_adder_1bit
+# Loading work.decoder7to128
+# Loading work.decoder6to64
+# Loading work.decoder3to8
+# Loading work.DataArray
+# Loading work.MetaDataArray
+# Loading work.if_id_flop
+# Loading work.PC_control
+# Loading work.PC_control_b
+# Loading work.PC_control_br
+# Loading work.hazard_detection
+# Loading work.RegisterFile
+# Loading work.WriteDecoder_4_16
+# Loading work.Shifter
+# Loading work.ReadDecoder_4_16
+# Loading work.Register
+# Loading work.BitCell
+# Loading work.id_ex_flop
+# Loading work.dff_4bit
+# Loading work.forward
+# Loading work.ALU
+# Loading work.RED_16bit
+# Loading work.CLA_8bit
+# Loading work.Rotator
+# Loading work.PSA_16bit
+# Loading work.flag_register
+# Loading work.ex_mem_flop
+# Loading work.memory4c
+# Loading work.mem_wb_flop
+# Loading work.Block
+# Loading work.MBlock
+# Loading work.DWord
+# Loading work.MCell
+# Loading work.DCell
+run -all
+# Hello world...simulation starting
+# See verilogsim.plog and verilogsim.ptrace for output
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Compile of addsub_4bit.v was successful.
+# Compile of ALU.v was successful.
+# Compile of BitCell.sv was successful.
+# Compile of CLA_4bit.sv was successful.
+# Compile of CLA_8bit.sv was successful.
+# Compile of CLA_8bit.v was successful.
+# Compile of CLA_16bit.sv was successful.
+# Compile of CLA_16bit.v was successful.
+# Compile of cpu.v was successful.
+# Compile of D-Flip-Flop.v was successful.
+# Compile of dff_4_bit.v was successful.
+# Compile of dff_16_bit.sv was successful.
+# Compile of dff_32_bit.v was successful.
+# Compile of EX_MEM_flop.v was successful.
+# Compile of flag_register.v was successful.
+# Compile of ForwardingUnit.v was successful.
+# Compile of full_adder_1bit.v was successful.
+# Compile of Hazard_Detection.v was successful.
+# Compile of ID_EX_flop.v was successful.
+# Compile of IF_ID_flop.v was successful.
+# Compile of MEM_WB_flop.v was successful.
+# Compile of memory.v was successful.
+# Compile of pc_control.sv was successful.
+# Compile of PC_control_b.sv was successful.
+# Compile of PC_control_br.sv was successful.
+# Compile of PFA.sv was successful.
+# Compile of PSA_16bit.sv was successful.
+# Compile of ReadDecoder_4_16.sv was successful.
+# Compile of RED_16bit.v was successful.
+# Compile of Register.sv was successful.
+# Compile of RegisterFile.sv was successful.
+# Compile of Rotator_16bit.v was successful.
+# Compile of Shifter.v was successful.
+# Compile of WriteDecoder_4_16.sv was successful.
+# Compile of project-phase2-testbench.v was successful.
+# Compile of DataArray.v was successful.
+# Compile of MetaDataArray.v was successful.
+# Compile of project-phase3-testbench.v was successful.
+# Compile of multicycle_memory.v was successful.
+# Compile of adder_3_bit.v was successful.
+# Compile of cache.v was successful.
+# Compile of decode7to128.v was successful.
+# Compile of decode3to8.v was successful.
+# Compile of D-Flip-Flop_3_Bit.v was successful.
+# Compile of decode6to64.v was successful.
+# 45 compiles, 0 failed with no errors.
+restart
+# Closing VCD file "dump.vcd"
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.cpu_ptb
+# Loading work.cpu
+# Loading work.dff_16bit
+# Loading work.dff
+# Loading work.CLA_16bit
+# Loading work.CLA_4bit
+# Loading work.PFA
+# Loading work.cache
+# Loading work.adder_4bit_safe
+# Loading work.full_adder_1bit
+# Loading work.decoder7to128
+# Loading work.decoder6to64
+# Loading work.decoder3to8
+# Loading work.DataArray
+# Loading work.MetaDataArray
+# Loading work.if_id_flop
+# Loading work.PC_control
+# Loading work.PC_control_b
+# Loading work.PC_control_br
+# Loading work.hazard_detection
+# Loading work.RegisterFile
+# Loading work.WriteDecoder_4_16
+# Loading work.Shifter
+# Loading work.ReadDecoder_4_16
+# Loading work.Register
+# Loading work.BitCell
+# Loading work.id_ex_flop
+# Loading work.dff_4bit
+# Loading work.forward
+# Loading work.ALU
+# Loading work.RED_16bit
+# Loading work.CLA_8bit
+# Loading work.Rotator
+# Loading work.PSA_16bit
+# Loading work.flag_register
+# Loading work.ex_mem_flop
+# Loading work.memory4c
+# Loading work.mem_wb_flop
+# Loading work.Block
+# Loading work.MBlock
+# Loading work.DWord
+# Loading work.MCell
+# Loading work.DCell
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'PC_control'.  Expected 10, found 9.
+#    Time: 0 ns  Iteration: 0  Instance: /cpu_ptb/DUT/PC_control File: /filespace/r/rcastle/git/ECE552/cpu.v Line: 121
+# ** Warning: (vsim-3722) /filespace/r/rcastle/git/ECE552/cpu.v(121): [TFMPC] - Missing connection for port 'bstall'.
+run -all
+# Hello world...simulation starting
+# See verilogsim.plog and verilogsim.ptrace for output
+# Compile of addsub_4bit.v was successful.
+# Compile of ALU.v was successful.
+# Compile of BitCell.sv was successful.
+# Compile of CLA_4bit.sv was successful.
+# Compile of CLA_8bit.sv was successful.
+# Compile of CLA_8bit.v was successful.
+# Compile of CLA_16bit.sv was successful.
+# Compile of CLA_16bit.v was successful.
+# Compile of cpu.v failed with 1 errors.
+# Compile of D-Flip-Flop.v was successful.
+# Compile of dff_4_bit.v was successful.
+# Compile of dff_16_bit.sv was successful.
+# Compile of dff_32_bit.v was successful.
+# Compile of EX_MEM_flop.v was successful.
+# Compile of flag_register.v was successful.
+# Compile of ForwardingUnit.v was successful.
+# Compile of full_adder_1bit.v was successful.
+# Compile of Hazard_Detection.v was successful.
+# Compile of ID_EX_flop.v was successful.
+# Compile of IF_ID_flop.v was successful.
+# Compile of MEM_WB_flop.v was successful.
+# Compile of memory.v was successful.
+# Compile of pc_control.sv was successful.
+# Compile of PC_control_b.sv was successful.
+# Compile of PC_control_br.sv was successful.
+# Compile of PFA.sv was successful.
+# Compile of PSA_16bit.sv was successful.
+# Compile of ReadDecoder_4_16.sv was successful.
+# Compile of RED_16bit.v was successful.
+# Compile of Register.sv was successful.
+# Compile of RegisterFile.sv was successful.
+# Compile of Rotator_16bit.v was successful.
+# Compile of Shifter.v was successful.
+# Compile of WriteDecoder_4_16.sv was successful.
+# Compile of project-phase2-testbench.v was successful.
+# Compile of DataArray.v was successful.
+# Compile of MetaDataArray.v was successful.
+# Compile of project-phase3-testbench.v was successful.
+# Compile of multicycle_memory.v was successful.
+# Compile of adder_3_bit.v was successful.
+# Compile of cache.v was successful.
+# Compile of decode7to128.v was successful.
+# Compile of decode3to8.v was successful.
+# Compile of D-Flip-Flop_3_Bit.v was successful.
+# Compile of decode6to64.v was successful.
+# 45 compiles, 1 failed with 1 error.
+# Compile of addsub_4bit.v was successful.
+# Compile of ALU.v was successful.
+# Compile of BitCell.sv was successful.
+# Compile of CLA_4bit.sv was successful.
+# Compile of CLA_8bit.sv was successful.
+# Compile of CLA_8bit.v was successful.
+# Compile of CLA_16bit.sv was successful.
+# Compile of CLA_16bit.v was successful.
+# Compile of cpu.v was successful.
+# Compile of D-Flip-Flop.v was successful.
+# Compile of dff_4_bit.v was successful.
+# Compile of dff_16_bit.sv was successful.
+# Compile of dff_32_bit.v was successful.
+# Compile of EX_MEM_flop.v was successful.
+# Compile of flag_register.v was successful.
+# Compile of ForwardingUnit.v was successful.
+# Compile of full_adder_1bit.v was successful.
+# Compile of Hazard_Detection.v was successful.
+# Compile of ID_EX_flop.v was successful.
+# Compile of IF_ID_flop.v was successful.
+# Compile of MEM_WB_flop.v was successful.
+# Compile of memory.v was successful.
+# Compile of pc_control.sv was successful.
+# Compile of PC_control_b.sv was successful.
+# Compile of PC_control_br.sv was successful.
+# Compile of PFA.sv was successful.
+# Compile of PSA_16bit.sv was successful.
+# Compile of ReadDecoder_4_16.sv was successful.
+# Compile of RED_16bit.v was successful.
+# Compile of Register.sv was successful.
+# Compile of RegisterFile.sv was successful.
+# Compile of Rotator_16bit.v was successful.
+# Compile of Shifter.v was successful.
+# Compile of WriteDecoder_4_16.sv was successful.
+# Compile of project-phase2-testbench.v was successful.
+# Compile of DataArray.v was successful.
+# Compile of MetaDataArray.v was successful.
+# Compile of project-phase3-testbench.v was successful.
+# Compile of multicycle_memory.v was successful.
+# Compile of adder_3_bit.v was successful.
+# Compile of cache.v was successful.
+# Compile of decode7to128.v was successful.
+# Compile of decode3to8.v was successful.
+# Compile of D-Flip-Flop_3_Bit.v was successful.
+# Compile of decode6to64.v was successful.
+# 45 compiles, 0 failed with no errors.
+restart
+# Closing VCD file "dump.vcd"
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.cpu_ptb
+# Loading work.cpu
+# Loading work.dff_16bit
+# Loading work.dff
+# Loading work.CLA_16bit
+# Loading work.CLA_4bit
+# Loading work.PFA
+# Loading work.cache
+# Loading work.adder_4bit_safe
+# Loading work.full_adder_1bit
+# Loading work.decoder7to128
+# Loading work.decoder6to64
+# Loading work.decoder3to8
+# Loading work.DataArray
+# Loading work.MetaDataArray
+# Loading work.if_id_flop
+# Loading work.PC_control
+# Loading work.PC_control_b
+# Loading work.PC_control_br
+# Loading work.hazard_detection
+# Loading work.RegisterFile
+# Loading work.WriteDecoder_4_16
+# Loading work.Shifter
+# Loading work.ReadDecoder_4_16
+# Loading work.Register
+# Loading work.BitCell
+# Loading work.id_ex_flop
+# Loading work.dff_4bit
+# Loading work.forward
+# Loading work.ALU
+# Loading work.RED_16bit
+# Loading work.CLA_8bit
+# Loading work.Rotator
+# Loading work.PSA_16bit
+# Loading work.flag_register
+# Loading work.ex_mem_flop
+# Loading work.memory4c
+# Loading work.mem_wb_flop
+# Loading work.Block
+# Loading work.MBlock
+# Loading work.DWord
+# Loading work.MCell
+# Loading work.DCell
+run -all
+# Hello world...simulation starting
+# See verilogsim.plog and verilogsim.ptrace for output
+restart
+# Closing VCD file "dump.vcd"
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run -all
+# Hello world...simulation starting
+# See verilogsim.plog and verilogsim.ptrace for output
+# ** Note: $finish    : /filespace/r/rcastle/git/ECE552/project-phase3-testbench.v(157)
+#    Time: 24405 ns  Iteration: 0  Instance: /cpu_ptb
+# 1
+# Break in Module cpu_ptb at /filespace/r/rcastle/git/ECE552/project-phase3-testbench.v line 157
+restart
+# Closing VCD file "dump.vcd"
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run -all
+# Hello world...simulation starting
+# See verilogsim.plog and verilogsim.ptrace for output
+add wave  \
+sim:/cpu_ptb/DUT/PC_control/BranchTaken \
+sim:/cpu_ptb/DUT/PC_control/bstall \
+sim:/cpu_ptb/DUT/PC_control/C \
+sim:/cpu_ptb/DUT/PC_control/F \
+sim:/cpu_ptb/DUT/PC_control/I \
+sim:/cpu_ptb/DUT/PC_control/Opcode \
+sim:/cpu_ptb/DUT/PC_control/PC_in \
+sim:/cpu_ptb/DUT/PC_control/PC_out \
+sim:/cpu_ptb/DUT/PC_control/PC_out_B \
+sim:/cpu_ptb/DUT/PC_control/PC_out_BR \
+sim:/cpu_ptb/DUT/PC_control/PC_out_HLT \
+sim:/cpu_ptb/DUT/PC_control/pc_overflow \
+sim:/cpu_ptb/DUT/PC_control/Rs_contents \
+sim:/cpu_ptb/DUT/PC_control/rst_n \
+sim:/cpu_ptb/DUT/PC_control/rst_PC \
+sim:/cpu_ptb/DUT/PC_control/take_branch \
+sim:/cpu_ptb/DUT/PC_control/take_branch_reg \
+sim:/cpu_ptb/DUT/PC_control/take_default
+restart
+# Closing VCD file "dump.vcd"
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run -all
+# Hello world...simulation starting
+# See verilogsim.plog and verilogsim.ptrace for output
+add wave  \
+sim:/cpu_ptb/DUT/pc_update
+restart
+# Closing VCD file "dump.vcd"
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run -continue
+# Hello world...simulation starting
+# See verilogsim.plog and verilogsim.ptrace for output
+# Compile of addsub_4bit.v was successful.
+# Compile of ALU.v was successful.
+# Compile of BitCell.sv was successful.
+# Compile of CLA_4bit.sv was successful.
+# Compile of CLA_8bit.sv was successful.
+# Compile of CLA_8bit.v was successful.
+# Compile of CLA_16bit.sv was successful.
+# Compile of CLA_16bit.v was successful.
+# Compile of cpu.v was successful.
+# Compile of D-Flip-Flop.v was successful.
+# Compile of dff_4_bit.v was successful.
+# Compile of dff_16_bit.sv was successful.
+# Compile of dff_32_bit.v was successful.
+# Compile of EX_MEM_flop.v was successful.
+# Compile of flag_register.v was successful.
+# Compile of ForwardingUnit.v was successful.
+# Compile of full_adder_1bit.v was successful.
+# Compile of Hazard_Detection.v was successful.
+# Compile of ID_EX_flop.v was successful.
+# Compile of IF_ID_flop.v was successful.
+# Compile of MEM_WB_flop.v was successful.
+# Compile of memory.v was successful.
+# Compile of pc_control.sv was successful.
+# Compile of PC_control_b.sv was successful.
+# Compile of PC_control_br.sv was successful.
+# Compile of PFA.sv was successful.
+# Compile of PSA_16bit.sv was successful.
+# Compile of ReadDecoder_4_16.sv was successful.
+# Compile of RED_16bit.v was successful.
+# Compile of Register.sv was successful.
+# Compile of RegisterFile.sv was successful.
+# Compile of Rotator_16bit.v was successful.
+# Compile of Shifter.v was successful.
+# Compile of WriteDecoder_4_16.sv was successful.
+# Compile of project-phase2-testbench.v was successful.
+# Compile of DataArray.v was successful.
+# Compile of MetaDataArray.v was successful.
+# Compile of project-phase3-testbench.v was successful.
+# Compile of multicycle_memory.v was successful.
+# Compile of adder_3_bit.v was successful.
+# Compile of cache.v was successful.
+# Compile of decode7to128.v was successful.
+# Compile of decode3to8.v was successful.
+# Compile of D-Flip-Flop_3_Bit.v was successful.
+# Compile of decode6to64.v was successful.
+# 45 compiles, 0 failed with no errors.
+restart
+# Closing VCD file "dump.vcd"
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.cpu_ptb
+# Loading work.cpu
+# Loading work.dff_16bit
+# Loading work.dff
+# Loading work.CLA_16bit
+# Loading work.CLA_4bit
+# Loading work.PFA
+# Loading work.cache
+# Loading work.adder_4bit_safe
+# Loading work.full_adder_1bit
+# Loading work.decoder7to128
+# Loading work.decoder6to64
+# Loading work.decoder3to8
+# Loading work.DataArray
+# Loading work.MetaDataArray
+# Loading work.if_id_flop
+# Loading work.PC_control
+# Loading work.PC_control_b
+# Loading work.PC_control_br
+# Loading work.hazard_detection
+# Loading work.RegisterFile
+# Loading work.WriteDecoder_4_16
+# Loading work.Shifter
+# Loading work.ReadDecoder_4_16
+# Loading work.Register
+# Loading work.BitCell
+# Loading work.id_ex_flop
+# Loading work.dff_4bit
+# Loading work.forward
+# Loading work.ALU
+# Loading work.RED_16bit
+# Loading work.CLA_8bit
+# Loading work.Rotator
+# Loading work.PSA_16bit
+# Loading work.flag_register
+# Loading work.ex_mem_flop
+# Loading work.memory4c
+# Loading work.mem_wb_flop
+# Loading work.Block
+# Loading work.MBlock
+# Loading work.DWord
+# Loading work.MCell
+# Loading work.DCell
+run -all
+# Hello world...simulation starting
+# See verilogsim.plog and verilogsim.ptrace for output
+# Compile of addsub_4bit.v was successful.
+# Compile of ALU.v was successful.
+# Compile of BitCell.sv was successful.
+# Compile of CLA_4bit.sv was successful.
+# Compile of CLA_8bit.sv was successful.
+# Compile of CLA_8bit.v was successful.
+# Compile of CLA_16bit.sv was successful.
+# Compile of CLA_16bit.v was successful.
+# Compile of cpu.v was successful.
+# Compile of D-Flip-Flop.v was successful.
+# Compile of dff_4_bit.v was successful.
+# Compile of dff_16_bit.sv was successful.
+# Compile of dff_32_bit.v was successful.
+# Compile of EX_MEM_flop.v was successful.
+# Compile of flag_register.v was successful.
+# Compile of ForwardingUnit.v was successful.
+# Compile of full_adder_1bit.v was successful.
+# Compile of Hazard_Detection.v was successful.
+# Compile of ID_EX_flop.v was successful.
+# Compile of IF_ID_flop.v was successful.
+# Compile of MEM_WB_flop.v was successful.
+# Compile of memory.v was successful.
+# Compile of pc_control.sv was successful.
+# Compile of PC_control_b.sv was successful.
+# Compile of PC_control_br.sv was successful.
+# Compile of PFA.sv was successful.
+# Compile of PSA_16bit.sv was successful.
+# Compile of ReadDecoder_4_16.sv was successful.
+# Compile of RED_16bit.v was successful.
+# Compile of Register.sv was successful.
+# Compile of RegisterFile.sv was successful.
+# Compile of Rotator_16bit.v was successful.
+# Compile of Shifter.v was successful.
+# Compile of WriteDecoder_4_16.sv was successful.
+# Compile of project-phase2-testbench.v was successful.
+# Compile of DataArray.v was successful.
+# Compile of MetaDataArray.v was successful.
+# Compile of project-phase3-testbench.v was successful.
+# Compile of multicycle_memory.v was successful.
+# Compile of adder_3_bit.v was successful.
+# Compile of cache.v was successful.
+# Compile of decode7to128.v was successful.
+# Compile of decode3to8.v was successful.
+# Compile of D-Flip-Flop_3_Bit.v was successful.
+# Compile of decode6to64.v was successful.
+# 45 compiles, 0 failed with no errors.
+restart
+# Closing VCD file "dump.vcd"
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.cpu_ptb
+# Loading work.cpu
+# Loading work.dff_16bit
+# Loading work.dff
+# Loading work.CLA_16bit
+# Loading work.CLA_4bit
+# Loading work.PFA
+# Loading work.cache
+# Loading work.adder_4bit_safe
+# Loading work.full_adder_1bit
+# Loading work.decoder7to128
+# Loading work.decoder6to64
+# Loading work.decoder3to8
+# Loading work.DataArray
+# Loading work.MetaDataArray
+# Loading work.if_id_flop
+# Loading work.PC_control
+# Loading work.PC_control_b
+# Loading work.PC_control_br
+# Loading work.hazard_detection
+# Loading work.RegisterFile
+# Loading work.WriteDecoder_4_16
+# Loading work.Shifter
+# Loading work.ReadDecoder_4_16
+# Loading work.Register
+# Loading work.BitCell
+# Loading work.id_ex_flop
+# Loading work.dff_4bit
+# Loading work.forward
+# Loading work.ALU
+# Loading work.RED_16bit
+# Loading work.CLA_8bit
+# Loading work.Rotator
+# Loading work.PSA_16bit
+# Loading work.flag_register
+# Loading work.ex_mem_flop
+# Loading work.memory4c
+# Loading work.mem_wb_flop
+# Loading work.Block
+# Loading work.MBlock
+# Loading work.DWord
+# Loading work.MCell
+# Loading work.DCell
+run -all
+# Hello world...simulation starting
+# See verilogsim.plog and verilogsim.ptrace for output
+# Compile of addsub_4bit.v was successful.
+# Compile of ALU.v was successful.
+# Compile of BitCell.sv was successful.
+# Compile of CLA_4bit.sv was successful.
+# Compile of CLA_8bit.sv was successful.
+# Compile of CLA_8bit.v was successful.
+# Compile of CLA_16bit.sv was successful.
+# Compile of CLA_16bit.v was successful.
+# Compile of cpu.v was successful.
+# Compile of D-Flip-Flop.v was successful.
+# Compile of dff_4_bit.v was successful.
+# Compile of dff_16_bit.sv was successful.
+# Compile of dff_32_bit.v was successful.
+# Compile of EX_MEM_flop.v was successful.
+# Compile of flag_register.v was successful.
+# Compile of ForwardingUnit.v was successful.
+# Compile of full_adder_1bit.v was successful.
+# Compile of Hazard_Detection.v was successful.
+# Compile of ID_EX_flop.v was successful.
+# Compile of IF_ID_flop.v was successful.
+# Compile of MEM_WB_flop.v was successful.
+# Compile of memory.v was successful.
+# Compile of pc_control.sv was successful.
+# Compile of PC_control_b.sv was successful.
+# Compile of PC_control_br.sv was successful.
+# Compile of PFA.sv was successful.
+# Compile of PSA_16bit.sv was successful.
+# Compile of ReadDecoder_4_16.sv was successful.
+# Compile of RED_16bit.v was successful.
+# Compile of Register.sv was successful.
+# Compile of RegisterFile.sv was successful.
+# Compile of Rotator_16bit.v was successful.
+# Compile of Shifter.v was successful.
+# Compile of WriteDecoder_4_16.sv was successful.
+# Compile of project-phase2-testbench.v was successful.
+# Compile of DataArray.v was successful.
+# Compile of MetaDataArray.v was successful.
+# Compile of project-phase3-testbench.v was successful.
+# Compile of multicycle_memory.v was successful.
+# Compile of adder_3_bit.v was successful.
+# Compile of cache.v was successful.
+# Compile of decode7to128.v was successful.
+# Compile of decode3to8.v was successful.
+# Compile of D-Flip-Flop_3_Bit.v was successful.
+# Compile of decode6to64.v was successful.
+# 45 compiles, 0 failed with no errors.
+restart
+# Closing VCD file "dump.vcd"
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.cpu_ptb
+# Loading work.cpu
+# Loading work.dff_16bit
+# Loading work.dff
+# Loading work.CLA_16bit
+# Loading work.CLA_4bit
+# Loading work.PFA
+# Loading work.cache
+# Loading work.adder_4bit_safe
+# Loading work.full_adder_1bit
+# Loading work.decoder7to128
+# Loading work.decoder6to64
+# Loading work.decoder3to8
+# Loading work.DataArray
+# Loading work.MetaDataArray
+# Loading work.if_id_flop
+# Loading work.PC_control
+# Loading work.PC_control_b
+# Loading work.PC_control_br
+# Loading work.hazard_detection
+# Loading work.RegisterFile
+# Loading work.WriteDecoder_4_16
+# Loading work.Shifter
+# Loading work.ReadDecoder_4_16
+# Loading work.Register
+# Loading work.BitCell
+# Loading work.id_ex_flop
+# Loading work.dff_4bit
+# Loading work.forward
+# Loading work.ALU
+# Loading work.RED_16bit
+# Loading work.CLA_8bit
+# Loading work.Rotator
+# Loading work.PSA_16bit
+# Loading work.flag_register
+# Loading work.ex_mem_flop
+# Loading work.memory4c
+# Loading work.mem_wb_flop
+# Loading work.Block
+# Loading work.MBlock
+# Loading work.DWord
+# Loading work.MCell
+# Loading work.DCell
+run -all
+# Hello world...simulation starting
+# See verilogsim.plog and verilogsim.ptrace for output
+add wave  \
+sim:/cpu_ptb/DUT/id_pc_out
+# Compile of addsub_4bit.v was successful.
+# Compile of ALU.v was successful.
+# Compile of BitCell.sv was successful.
+# Compile of CLA_4bit.sv was successful.
+# Compile of CLA_8bit.sv was successful.
+# Compile of CLA_8bit.v was successful.
+# Compile of CLA_16bit.sv was successful.
+# Compile of CLA_16bit.v was successful.
+# Compile of cpu.v was successful.
+# Compile of D-Flip-Flop.v was successful.
+# Compile of dff_4_bit.v was successful.
+# Compile of dff_16_bit.sv was successful.
+# Compile of dff_32_bit.v was successful.
+# Compile of EX_MEM_flop.v was successful.
+# Compile of flag_register.v was successful.
+# Compile of ForwardingUnit.v was successful.
+# Compile of full_adder_1bit.v was successful.
+# Compile of Hazard_Detection.v was successful.
+# Compile of ID_EX_flop.v was successful.
+# Compile of IF_ID_flop.v was successful.
+# Compile of MEM_WB_flop.v was successful.
+# Compile of memory.v was successful.
+# Compile of pc_control.sv was successful.
+# Compile of PC_control_b.sv was successful.
+# Compile of PC_control_br.sv was successful.
+# Compile of PFA.sv was successful.
+# Compile of PSA_16bit.sv was successful.
+# Compile of ReadDecoder_4_16.sv was successful.
+# Compile of RED_16bit.v was successful.
+# Compile of Register.sv was successful.
+# Compile of RegisterFile.sv was successful.
+# Compile of Rotator_16bit.v was successful.
+# Compile of Shifter.v was successful.
+# Compile of WriteDecoder_4_16.sv was successful.
+# Compile of project-phase2-testbench.v was successful.
+# Compile of DataArray.v was successful.
+# Compile of MetaDataArray.v was successful.
+# Compile of project-phase3-testbench.v was successful.
+# Compile of multicycle_memory.v was successful.
+# Compile of adder_3_bit.v was successful.
+# Compile of cache.v was successful.
+# Compile of decode7to128.v was successful.
+# Compile of decode3to8.v was successful.
+# Compile of D-Flip-Flop_3_Bit.v was successful.
+# Compile of decode6to64.v was successful.
+# 45 compiles, 0 failed with no errors.
+restart
+# Closing VCD file "dump.vcd"
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.cpu_ptb
+# Loading work.cpu
+# Loading work.dff_16bit
+# Loading work.dff
+# Loading work.CLA_16bit
+# Loading work.CLA_4bit
+# Loading work.PFA
+# Loading work.cache
+# Loading work.adder_4bit_safe
+# Loading work.full_adder_1bit
+# Loading work.decoder7to128
+# Loading work.decoder6to64
+# Loading work.decoder3to8
+# Loading work.DataArray
+# Loading work.MetaDataArray
+# Loading work.if_id_flop
+# Loading work.PC_control
+# Loading work.PC_control_b
+# Loading work.PC_control_br
+# Loading work.hazard_detection
+# Loading work.RegisterFile
+# Loading work.WriteDecoder_4_16
+# Loading work.Shifter
+# Loading work.ReadDecoder_4_16
+# Loading work.Register
+# Loading work.BitCell
+# Loading work.id_ex_flop
+# Loading work.dff_4bit
+# Loading work.forward
+# Loading work.ALU
+# Loading work.RED_16bit
+# Loading work.CLA_8bit
+# Loading work.Rotator
+# Loading work.PSA_16bit
+# Loading work.flag_register
+# Loading work.ex_mem_flop
+# Loading work.memory4c
+# Loading work.mem_wb_flop
+# Loading work.Block
+# Loading work.MBlock
+# Loading work.DWord
+# Loading work.MCell
+# Loading work.DCell
+run -all
+# Hello world...simulation starting
+# See verilogsim.plog and verilogsim.ptrace for output
+# Compile of addsub_4bit.v was successful.
+# Compile of ALU.v was successful.
+# Compile of BitCell.sv was successful.
+# Compile of CLA_4bit.sv was successful.
+# Compile of CLA_8bit.sv was successful.
+# Compile of CLA_8bit.v was successful.
+# Compile of CLA_16bit.sv was successful.
+# Compile of CLA_16bit.v was successful.
+# Compile of cpu.v was successful.
+# Compile of D-Flip-Flop.v was successful.
+# Compile of dff_4_bit.v was successful.
+# Compile of dff_16_bit.sv was successful.
+# Compile of dff_32_bit.v was successful.
+# Compile of EX_MEM_flop.v was successful.
+# Compile of flag_register.v was successful.
+# Compile of ForwardingUnit.v was successful.
+# Compile of full_adder_1bit.v was successful.
+# Compile of Hazard_Detection.v was successful.
+# Compile of ID_EX_flop.v was successful.
+# Compile of IF_ID_flop.v was successful.
+# Compile of MEM_WB_flop.v was successful.
+# Compile of memory.v was successful.
+# Compile of pc_control.sv was successful.
+# Compile of PC_control_b.sv was successful.
+# Compile of PC_control_br.sv was successful.
+# Compile of PFA.sv was successful.
+# Compile of PSA_16bit.sv was successful.
+# Compile of ReadDecoder_4_16.sv was successful.
+# Compile of RED_16bit.v was successful.
+# Compile of Register.sv was successful.
+# Compile of RegisterFile.sv was successful.
+# Compile of Rotator_16bit.v was successful.
+# Compile of Shifter.v was successful.
+# Compile of WriteDecoder_4_16.sv was successful.
+# Compile of project-phase2-testbench.v was successful.
+# Compile of DataArray.v was successful.
+# Compile of MetaDataArray.v was successful.
+# Compile of project-phase3-testbench.v was successful.
+# Compile of multicycle_memory.v was successful.
+# Compile of adder_3_bit.v was successful.
+# Compile of cache.v was successful.
+# Compile of decode7to128.v was successful.
+# Compile of decode3to8.v was successful.
+# Compile of D-Flip-Flop_3_Bit.v was successful.
+# Compile of decode6to64.v was successful.
+# 45 compiles, 0 failed with no errors.
+restart
+# Closing VCD file "dump.vcd"
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.cpu_ptb
+# Loading work.cpu
+# Loading work.dff_16bit
+# Loading work.dff
+# Loading work.CLA_16bit
+# Loading work.CLA_4bit
+# Loading work.PFA
+# Loading work.cache
+# Loading work.adder_4bit_safe
+# Loading work.full_adder_1bit
+# Loading work.decoder7to128
+# Loading work.decoder6to64
+# Loading work.decoder3to8
+# Loading work.DataArray
+# Loading work.MetaDataArray
+# Loading work.if_id_flop
+# Loading work.PC_control
+# Loading work.PC_control_b
+# Loading work.PC_control_br
+# Loading work.hazard_detection
+# Loading work.RegisterFile
+# Loading work.WriteDecoder_4_16
+# Loading work.Shifter
+# Loading work.ReadDecoder_4_16
+# Loading work.Register
+# Loading work.BitCell
+# Loading work.id_ex_flop
+# Loading work.dff_4bit
+# Loading work.forward
+# Loading work.ALU
+# Loading work.RED_16bit
+# Loading work.CLA_8bit
+# Loading work.Rotator
+# Loading work.PSA_16bit
+# Loading work.flag_register
+# Loading work.ex_mem_flop
+# Loading work.memory4c
+# Loading work.mem_wb_flop
+# Loading work.Block
+# Loading work.MBlock
+# Loading work.DWord
+# Loading work.MCell
+# Loading work.DCell
+run -all
+# Hello world...simulation starting
+# See verilogsim.plog and verilogsim.ptrace for output
+# Compile of addsub_4bit.v was successful.
+# Compile of ALU.v was successful.
+# Compile of BitCell.sv was successful.
+# Compile of CLA_4bit.sv was successful.
+# Compile of CLA_8bit.sv was successful.
+# Compile of CLA_8bit.v was successful.
+# Compile of CLA_16bit.sv was successful.
+# Compile of CLA_16bit.v was successful.
+# Compile of cpu.v was successful.
+# Compile of D-Flip-Flop.v was successful.
+# Compile of dff_4_bit.v was successful.
+# Compile of dff_16_bit.sv was successful.
+# Compile of dff_32_bit.v was successful.
+# Compile of EX_MEM_flop.v was successful.
+# Compile of flag_register.v was successful.
+# Compile of ForwardingUnit.v was successful.
+# Compile of full_adder_1bit.v was successful.
+# Compile of Hazard_Detection.v was successful.
+# Compile of ID_EX_flop.v was successful.
+# Compile of IF_ID_flop.v was successful.
+# Compile of MEM_WB_flop.v was successful.
+# Compile of memory.v was successful.
+# Compile of pc_control.sv was successful.
+# Compile of PC_control_b.sv was successful.
+# Compile of PC_control_br.sv was successful.
+# Compile of PFA.sv was successful.
+# Compile of PSA_16bit.sv was successful.
+# Compile of ReadDecoder_4_16.sv was successful.
+# Compile of RED_16bit.v was successful.
+# Compile of Register.sv was successful.
+# Compile of RegisterFile.sv was successful.
+# Compile of Rotator_16bit.v was successful.
+# Compile of Shifter.v was successful.
+# Compile of WriteDecoder_4_16.sv was successful.
+# Compile of project-phase2-testbench.v was successful.
+# Compile of DataArray.v was successful.
+# Compile of MetaDataArray.v was successful.
+# Compile of project-phase3-testbench.v was successful.
+# Compile of multicycle_memory.v was successful.
+# Compile of adder_3_bit.v was successful.
+# Compile of cache.v was successful.
+# Compile of decode7to128.v was successful.
+# Compile of decode3to8.v was successful.
+# Compile of D-Flip-Flop_3_Bit.v was successful.
+# Compile of decode6to64.v was successful.
+# 45 compiles, 0 failed with no errors.
+restart
+# Closing VCD file "dump.vcd"
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.cpu_ptb
+# Loading work.cpu
+# Loading work.dff_16bit
+# Loading work.dff
+# Loading work.CLA_16bit
+# Loading work.CLA_4bit
+# Loading work.PFA
+# Loading work.cache
+# Loading work.adder_4bit_safe
+# Loading work.full_adder_1bit
+# Loading work.decoder7to128
+# Loading work.decoder6to64
+# Loading work.decoder3to8
+# Loading work.DataArray
+# Loading work.MetaDataArray
+# Loading work.if_id_flop
+# Loading work.PC_control
+# Loading work.PC_control_b
+# Loading work.PC_control_br
+# Loading work.hazard_detection
+# Loading work.RegisterFile
+# Loading work.WriteDecoder_4_16
+# Loading work.Shifter
+# Loading work.ReadDecoder_4_16
+# Loading work.Register
+# Loading work.BitCell
+# Loading work.id_ex_flop
+# Loading work.dff_4bit
+# Loading work.forward
+# Loading work.ALU
+# Loading work.RED_16bit
+# Loading work.CLA_8bit
+# Loading work.Rotator
+# Loading work.PSA_16bit
+# Loading work.flag_register
+# Loading work.ex_mem_flop
+# Loading work.memory4c
+# Loading work.mem_wb_flop
+# Loading work.Block
+# Loading work.MBlock
+# Loading work.DWord
+# Loading work.MCell
+# Loading work.DCell
+run -all
+# Hello world...simulation starting
+# See verilogsim.plog and verilogsim.ptrace for output
+# Compile of addsub_4bit.v was successful.
+# Compile of ALU.v was successful.
+# Compile of BitCell.sv was successful.
+# Compile of CLA_4bit.sv was successful.
+# Compile of CLA_8bit.sv was successful.
+# Compile of CLA_8bit.v was successful.
+# Compile of CLA_16bit.sv was successful.
+# Compile of CLA_16bit.v was successful.
+# Compile of cpu.v was successful.
+# Compile of D-Flip-Flop.v was successful.
+# Compile of dff_4_bit.v was successful.
+# Compile of dff_16_bit.sv was successful.
+# Compile of dff_32_bit.v was successful.
+# Compile of EX_MEM_flop.v was successful.
+# Compile of flag_register.v was successful.
+# Compile of ForwardingUnit.v was successful.
+# Compile of full_adder_1bit.v was successful.
+# Compile of Hazard_Detection.v was successful.
+# Compile of ID_EX_flop.v was successful.
+# Compile of IF_ID_flop.v was successful.
+# Compile of MEM_WB_flop.v was successful.
+# Compile of memory.v was successful.
+# Compile of pc_control.sv was successful.
+# Compile of PC_control_b.sv was successful.
+# Compile of PC_control_br.sv was successful.
+# Compile of PFA.sv was successful.
+# Compile of PSA_16bit.sv was successful.
+# Compile of ReadDecoder_4_16.sv was successful.
+# Compile of RED_16bit.v was successful.
+# Compile of Register.sv was successful.
+# Compile of RegisterFile.sv was successful.
+# Compile of Rotator_16bit.v was successful.
+# Compile of Shifter.v was successful.
+# Compile of WriteDecoder_4_16.sv was successful.
+# Compile of project-phase2-testbench.v was successful.
+# Compile of DataArray.v was successful.
+# Compile of MetaDataArray.v was successful.
+# Compile of project-phase3-testbench.v was successful.
+# Compile of multicycle_memory.v was successful.
+# Compile of adder_3_bit.v was successful.
+# Compile of cache.v was successful.
+# Compile of decode7to128.v was successful.
+# Compile of decode3to8.v was successful.
+# Compile of D-Flip-Flop_3_Bit.v was successful.
+# Compile of decode6to64.v was successful.
+# 45 compiles, 0 failed with no errors.
+restart
+# Closing VCD file "dump.vcd"
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.cpu_ptb
+# Loading work.cpu
+# Loading work.dff_16bit
+# Loading work.dff
+# Loading work.CLA_16bit
+# Loading work.CLA_4bit
+# Loading work.PFA
+# Loading work.cache
+# Loading work.adder_4bit_safe
+# Loading work.full_adder_1bit
+# Loading work.decoder7to128
+# Loading work.decoder6to64
+# Loading work.decoder3to8
+# Loading work.DataArray
+# Loading work.MetaDataArray
+# Loading work.if_id_flop
+# Loading work.PC_control
+# Loading work.PC_control_b
+# Loading work.PC_control_br
+# Loading work.hazard_detection
+# Loading work.RegisterFile
+# Loading work.WriteDecoder_4_16
+# Loading work.Shifter
+# Loading work.ReadDecoder_4_16
+# Loading work.Register
+# Loading work.BitCell
+# Loading work.id_ex_flop
+# Loading work.dff_4bit
+# Loading work.forward
+# Loading work.ALU
+# Loading work.RED_16bit
+# Loading work.CLA_8bit
+# Loading work.Rotator
+# Loading work.PSA_16bit
+# Loading work.flag_register
+# Loading work.ex_mem_flop
+# Loading work.memory4c
+# Loading work.mem_wb_flop
+# Loading work.Block
+# Loading work.MBlock
+# Loading work.DWord
+# Loading work.MCell
+# Loading work.DCell
+add wave  \
+sim:/cpu_ptb/DUT/PC_control/check_stall_special
+run -all
+# Hello world...simulation starting
+# See verilogsim.plog and verilogsim.ptrace for output
+run -all
+# Compile of addsub_4bit.v was successful.
+# Compile of ALU.v was successful.
+# Compile of BitCell.sv was successful.
+# Compile of CLA_4bit.sv was successful.
+# Compile of CLA_8bit.sv was successful.
+# Compile of CLA_8bit.v was successful.
+# Compile of CLA_16bit.sv was successful.
+# Compile of CLA_16bit.v was successful.
+# Compile of cpu.v was successful.
+# Compile of D-Flip-Flop.v was successful.
+# Compile of dff_4_bit.v was successful.
+# Compile of dff_16_bit.sv was successful.
+# Compile of dff_32_bit.v was successful.
+# Compile of EX_MEM_flop.v was successful.
+# Compile of flag_register.v was successful.
+# Compile of ForwardingUnit.v was successful.
+# Compile of full_adder_1bit.v was successful.
+# Compile of Hazard_Detection.v was successful.
+# Compile of ID_EX_flop.v was successful.
+# Compile of IF_ID_flop.v was successful.
+# Compile of MEM_WB_flop.v was successful.
+# Compile of memory.v was successful.
+# Compile of pc_control.sv was successful.
+# Compile of PC_control_b.sv was successful.
+# Compile of PC_control_br.sv was successful.
+# Compile of PFA.sv was successful.
+# Compile of PSA_16bit.sv was successful.
+# Compile of ReadDecoder_4_16.sv was successful.
+# Compile of RED_16bit.v was successful.
+# Compile of Register.sv was successful.
+# Compile of RegisterFile.sv was successful.
+# Compile of Rotator_16bit.v was successful.
+# Compile of Shifter.v was successful.
+# Compile of WriteDecoder_4_16.sv was successful.
+# Compile of project-phase2-testbench.v was successful.
+# Compile of DataArray.v was successful.
+# Compile of MetaDataArray.v was successful.
+# Compile of project-phase3-testbench.v was successful.
+# Compile of multicycle_memory.v was successful.
+# Compile of adder_3_bit.v was successful.
+# Compile of cache.v was successful.
+# Compile of decode7to128.v was successful.
+# Compile of decode3to8.v was successful.
+# Compile of D-Flip-Flop_3_Bit.v was successful.
+# Compile of decode6to64.v was successful.
+# 45 compiles, 0 failed with no errors.
+# Compile of addsub_4bit.v was successful.
+# Compile of ALU.v was successful.
+# Compile of BitCell.sv was successful.
+# Compile of CLA_4bit.sv was successful.
+# Compile of CLA_8bit.sv was successful.
+# Compile of CLA_8bit.v was successful.
+# Compile of CLA_16bit.sv was successful.
+# Compile of CLA_16bit.v was successful.
+# Compile of cpu.v was successful.
+# Compile of D-Flip-Flop.v was successful.
+# Compile of dff_4_bit.v was successful.
+# Compile of dff_16_bit.sv was successful.
+# Compile of dff_32_bit.v was successful.
+# Compile of EX_MEM_flop.v was successful.
+# Compile of flag_register.v was successful.
+# Compile of ForwardingUnit.v was successful.
+# Compile of full_adder_1bit.v was successful.
+# Compile of Hazard_Detection.v was successful.
+# Compile of ID_EX_flop.v was successful.
+# Compile of IF_ID_flop.v was successful.
+# Compile of MEM_WB_flop.v was successful.
+# Compile of memory.v was successful.
+# Compile of pc_control.sv was successful.
+# Compile of PC_control_b.sv was successful.
+# Compile of PC_control_br.sv was successful.
+# Compile of PFA.sv was successful.
+# Compile of PSA_16bit.sv was successful.
+# Compile of ReadDecoder_4_16.sv was successful.
+# Compile of RED_16bit.v was successful.
+# Compile of Register.sv was successful.
+# Compile of RegisterFile.sv was successful.
+# Compile of Rotator_16bit.v was successful.
+# Compile of Shifter.v was successful.
+# Compile of WriteDecoder_4_16.sv was successful.
+# Compile of project-phase2-testbench.v was successful.
+# Compile of DataArray.v was successful.
+# Compile of MetaDataArray.v was successful.
+# Compile of project-phase3-testbench.v was successful.
+# Compile of multicycle_memory.v was successful.
+# Compile of adder_3_bit.v was successful.
+# Compile of cache.v was successful.
+# Compile of decode7to128.v was successful.
+# Compile of decode3to8.v was successful.
+# Compile of D-Flip-Flop_3_Bit.v was successful.
+# Compile of decode6to64.v was successful.
+# 45 compiles, 0 failed with no errors.
+restart
+# Closing VCD file "dump.vcd"
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.cpu_ptb
+# Loading work.cpu
+# Loading work.dff_16bit
+# Loading work.dff
+# Loading work.CLA_16bit
+# Loading work.CLA_4bit
+# Loading work.PFA
+# Loading work.cache
+# Loading work.adder_4bit_safe
+# Loading work.full_adder_1bit
+# Loading work.decoder7to128
+# Loading work.decoder6to64
+# Loading work.decoder3to8
+# Loading work.DataArray
+# Loading work.MetaDataArray
+# Loading work.if_id_flop
+# Loading work.PC_control
+# Loading work.PC_control_b
+# Loading work.PC_control_br
+# Loading work.hazard_detection
+# Loading work.RegisterFile
+# Loading work.WriteDecoder_4_16
+# Loading work.Shifter
+# Loading work.ReadDecoder_4_16
+# Loading work.Register
+# Loading work.BitCell
+# Loading work.id_ex_flop
+# Loading work.dff_4bit
+# Loading work.forward
+# Loading work.ALU
+# Loading work.RED_16bit
+# Loading work.CLA_8bit
+# Loading work.Rotator
+# Loading work.PSA_16bit
+# Loading work.flag_register
+# Loading work.ex_mem_flop
+# Loading work.memory4c
+# Loading work.mem_wb_flop
+# Loading work.Block
+# Loading work.MBlock
+# Loading work.DWord
+# Loading work.MCell
+# Loading work.DCell
+run -all
+# Hello world...simulation starting
+# See verilogsim.plog and verilogsim.ptrace for output
+# Compile of addsub_4bit.v was successful.
+# Compile of ALU.v was successful.
+# Compile of BitCell.sv was successful.
+# Compile of CLA_4bit.sv was successful.
+# Compile of CLA_8bit.sv was successful.
+# Compile of CLA_8bit.v was successful.
+# Compile of CLA_16bit.sv was successful.
+# Compile of CLA_16bit.v was successful.
+# Compile of cpu.v was successful.
+# Compile of D-Flip-Flop.v was successful.
+# Compile of dff_4_bit.v was successful.
+# Compile of dff_16_bit.sv was successful.
+# Compile of dff_32_bit.v was successful.
+# Compile of EX_MEM_flop.v was successful.
+# Compile of flag_register.v was successful.
+# Compile of ForwardingUnit.v was successful.
+# Compile of full_adder_1bit.v was successful.
+# Compile of Hazard_Detection.v was successful.
+# Compile of ID_EX_flop.v was successful.
+# Compile of IF_ID_flop.v was successful.
+# Compile of MEM_WB_flop.v was successful.
+# Compile of memory.v was successful.
+# Compile of pc_control.sv was successful.
+# Compile of PC_control_b.sv was successful.
+# Compile of PC_control_br.sv was successful.
+# Compile of PFA.sv was successful.
+# Compile of PSA_16bit.sv was successful.
+# Compile of ReadDecoder_4_16.sv was successful.
+# Compile of RED_16bit.v was successful.
+# Compile of Register.sv was successful.
+# Compile of RegisterFile.sv was successful.
+# Compile of Rotator_16bit.v was successful.
+# Compile of Shifter.v was successful.
+# Compile of WriteDecoder_4_16.sv was successful.
+# Compile of project-phase2-testbench.v was successful.
+# Compile of DataArray.v was successful.
+# Compile of MetaDataArray.v was successful.
+# Compile of project-phase3-testbench.v was successful.
+# Compile of multicycle_memory.v was successful.
+# Compile of adder_3_bit.v was successful.
+# Compile of cache.v was successful.
+# Compile of decode7to128.v was successful.
+# Compile of decode3to8.v was successful.
+# Compile of D-Flip-Flop_3_Bit.v was successful.
+# Compile of decode6to64.v was successful.
+# 45 compiles, 0 failed with no errors.
+restart
+# Closing VCD file "dump.vcd"
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.cpu_ptb
+# Loading work.cpu
+# Loading work.dff_16bit
+# Loading work.dff
+# Loading work.CLA_16bit
+# Loading work.CLA_4bit
+# Loading work.PFA
+# Loading work.cache
+# Loading work.adder_4bit_safe
+# Loading work.full_adder_1bit
+# Loading work.decoder7to128
+# Loading work.decoder6to64
+# Loading work.decoder3to8
+# Loading work.DataArray
+# Loading work.MetaDataArray
+# Loading work.if_id_flop
+# Loading work.PC_control
+# Loading work.PC_control_b
+# Loading work.PC_control_br
+# Loading work.hazard_detection
+# Loading work.RegisterFile
+# Loading work.WriteDecoder_4_16
+# Loading work.Shifter
+# Loading work.ReadDecoder_4_16
+# Loading work.Register
+# Loading work.BitCell
+# Loading work.id_ex_flop
+# Loading work.dff_4bit
+# Loading work.forward
+# Loading work.ALU
+# Loading work.RED_16bit
+# Loading work.CLA_8bit
+# Loading work.Rotator
+# Loading work.PSA_16bit
+# Loading work.flag_register
+# Loading work.ex_mem_flop
+# Loading work.memory4c
+# Loading work.mem_wb_flop
+# Loading work.Block
+# Loading work.MBlock
+# Loading work.DWord
+# Loading work.MCell
+# Loading work.DCell
+run -all
+# Hello world...simulation starting
+# See verilogsim.plog and verilogsim.ptrace for output
+# ** Note: $finish    : /filespace/r/rcastle/git/ECE552/project-phase3-testbench.v(157)
+#    Time: 14105 ns  Iteration: 0  Instance: /cpu_ptb
+# 1
+# Break in Module cpu_ptb at /filespace/r/rcastle/git/ECE552/project-phase3-testbench.v line 157
+# Compile of pc_control.sv failed with 1 errors.
+# Compile of addsub_4bit.v was successful.
+# Compile of ALU.v was successful.
+# Compile of BitCell.sv was successful.
+# Compile of CLA_4bit.sv was successful.
+# Compile of CLA_8bit.sv was successful.
+# Compile of CLA_8bit.v was successful.
+# Compile of CLA_16bit.sv was successful.
+# Compile of CLA_16bit.v was successful.
+# Compile of cpu.v was successful.
+# Compile of D-Flip-Flop.v was successful.
+# Compile of dff_4_bit.v was successful.
+# Compile of dff_16_bit.sv was successful.
+# Compile of dff_32_bit.v was successful.
+# Compile of EX_MEM_flop.v was successful.
+# Compile of flag_register.v was successful.
+# Compile of ForwardingUnit.v was successful.
+# Compile of full_adder_1bit.v was successful.
+# Compile of Hazard_Detection.v was successful.
+# Compile of ID_EX_flop.v was successful.
+# Compile of IF_ID_flop.v was successful.
+# Compile of MEM_WB_flop.v was successful.
+# Compile of memory.v was successful.
+# Compile of pc_control.sv failed with 1 errors.
+# Compile of PC_control_b.sv was successful.
+# Compile of PC_control_br.sv was successful.
+# Compile of PFA.sv was successful.
+# Compile of PSA_16bit.sv was successful.
+# Compile of ReadDecoder_4_16.sv was successful.
+# Compile of RED_16bit.v was successful.
+# Compile of Register.sv was successful.
+# Compile of RegisterFile.sv was successful.
+# Compile of Rotator_16bit.v was successful.
+# Compile of Shifter.v was successful.
+# Compile of WriteDecoder_4_16.sv was successful.
+# Compile of project-phase2-testbench.v was successful.
+# Compile of DataArray.v was successful.
+# Compile of MetaDataArray.v was successful.
+# Compile of project-phase3-testbench.v was successful.
+# Compile of multicycle_memory.v was successful.
+# Compile of adder_3_bit.v was successful.
+# Compile of cache.v was successful.
+# Compile of decode7to128.v was successful.
+# Compile of decode3to8.v was successful.
+# Compile of D-Flip-Flop_3_Bit.v was successful.
+# Compile of decode6to64.v was successful.
+# 45 compiles, 1 failed with 1 error.
+# Compile of addsub_4bit.v was successful.
+# Compile of ALU.v was successful.
+# Compile of BitCell.sv was successful.
+# Compile of CLA_4bit.sv was successful.
+# Compile of CLA_8bit.sv was successful.
+# Compile of CLA_8bit.v was successful.
+# Compile of CLA_16bit.sv was successful.
+# Compile of CLA_16bit.v was successful.
+# Compile of cpu.v was successful.
+# Compile of D-Flip-Flop.v was successful.
+# Compile of dff_4_bit.v was successful.
+# Compile of dff_16_bit.sv was successful.
+# Compile of dff_32_bit.v was successful.
+# Compile of EX_MEM_flop.v was successful.
+# Compile of flag_register.v was successful.
+# Compile of ForwardingUnit.v was successful.
+# Compile of full_adder_1bit.v was successful.
+# Compile of Hazard_Detection.v was successful.
+# Compile of ID_EX_flop.v was successful.
+# Compile of IF_ID_flop.v was successful.
+# Compile of MEM_WB_flop.v was successful.
+# Compile of memory.v was successful.
+# Compile of pc_control.sv was successful.
+# Compile of PC_control_b.sv was successful.
+# Compile of PC_control_br.sv was successful.
+# Compile of PFA.sv was successful.
+# Compile of PSA_16bit.sv was successful.
+# Compile of ReadDecoder_4_16.sv was successful.
+# Compile of RED_16bit.v was successful.
+# Compile of Register.sv was successful.
+# Compile of RegisterFile.sv was successful.
+# Compile of Rotator_16bit.v was successful.
+# Compile of Shifter.v was successful.
+# Compile of WriteDecoder_4_16.sv was successful.
+# Compile of project-phase2-testbench.v was successful.
+# Compile of DataArray.v was successful.
+# Compile of MetaDataArray.v was successful.
+# Compile of project-phase3-testbench.v was successful.
+# Compile of multicycle_memory.v was successful.
+# Compile of adder_3_bit.v was successful.
+# Compile of cache.v was successful.
+# Compile of decode7to128.v was successful.
+# Compile of decode3to8.v was successful.
+# Compile of D-Flip-Flop_3_Bit.v was successful.
+# Compile of decode6to64.v was successful.
+# 45 compiles, 0 failed with no errors.
+restart
+# Closing VCD file "dump.vcd"
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.cpu_ptb
+# Loading work.cpu
+# Loading work.dff_16bit
+# Loading work.dff
+# Loading work.CLA_16bit
+# Loading work.CLA_4bit
+# Loading work.PFA
+# Loading work.cache
+# Loading work.adder_4bit_safe
+# Loading work.full_adder_1bit
+# Loading work.decoder7to128
+# Loading work.decoder6to64
+# Loading work.decoder3to8
+# Loading work.DataArray
+# Loading work.MetaDataArray
+# Loading work.if_id_flop
+# Loading work.PC_control
+# Loading work.PC_control_b
+# Loading work.PC_control_br
+# Loading work.hazard_detection
+# Loading work.RegisterFile
+# Loading work.WriteDecoder_4_16
+# Loading work.Shifter
+# Loading work.ReadDecoder_4_16
+# Loading work.Register
+# Loading work.BitCell
+# Loading work.id_ex_flop
+# Loading work.dff_4bit
+# Loading work.forward
+# Loading work.ALU
+# Loading work.RED_16bit
+# Loading work.CLA_8bit
+# Loading work.Rotator
+# Loading work.PSA_16bit
+# Loading work.flag_register
+# Loading work.ex_mem_flop
+# Loading work.memory4c
+# Loading work.mem_wb_flop
+# Loading work.Block
+# Loading work.MBlock
+# Loading work.DWord
+# Loading work.MCell
+# Loading work.DCell
+# Warning in wave window restart: (vish-4014) No objects found matching '/cpu_ptb/DUT/PC_control/check_stall_special'. 
+run -all
+# Hello world...simulation starting
+# See verilogsim.plog and verilogsim.ptrace for output
+# ** Note: $finish    : /filespace/r/rcastle/git/ECE552/project-phase3-testbench.v(157)
+#    Time: 14105 ns  Iteration: 0  Instance: /cpu_ptb
+# 1
+# Break in Module cpu_ptb at /filespace/r/rcastle/git/ECE552/project-phase3-testbench.v line 157

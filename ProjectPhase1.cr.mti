@@ -1,0 +1,190 @@
+../ECE552/PC_control_br.sv {1 {vlog -work work -sv -stats=none /filespace/r/rcastle/git/ECE552/PC_control_br.sv
+Model Technology ModelSim DE vlog 2019.2 Compiler 2019.04 Apr 16 2019
+-- Compiling module PC_control_br
+
+Top level modules:
+	PC_control_br
+
+} {} {}} ../ECE552/Testbenches/pc_tb.sv {1 {vlog -work work -sv -stats=none /filespace/r/rcastle/git/ECE552/Testbenches/pc_tb.sv
+Model Technology ModelSim DE vlog 2019.2 Compiler 2019.04 Apr 16 2019
+-- Compiling module pc_tb
+
+Top level modules:
+	pc_tb
+
+} {} {}} ../ECE552/BitCell.sv {1 {vlog -work work -sv -stats=none /filespace/r/rcastle/git/ECE552/BitCell.sv
+Model Technology ModelSim DE vlog 2019.2 Compiler 2019.04 Apr 16 2019
+-- Compiling module BitCell
+
+Top level modules:
+	BitCell
+
+} {} {}} ../ECE552/PSA_16bit.sv {1 {vlog -work work -sv -stats=none /filespace/r/rcastle/git/ECE552/PSA_16bit.sv
+Model Technology ModelSim DE vlog 2019.2 Compiler 2019.04 Apr 16 2019
+-- Compiling module PSA_16bit
+
+Top level modules:
+	PSA_16bit
+
+} {} {}} /filespace/r/rcastle/git/ECE552/Shifter.v {1 {vlog -work work -stats=none /filespace/r/rcastle/git/ECE552/Shifter.v
+Model Technology ModelSim DE vlog 2019.2 Compiler 2019.04 Apr 16 2019
+-- Compiling module Shifter
+
+Top level modules:
+	Shifter
+
+} {} {}} ../ECE552/WriteDecoder_4_16.sv {1 {vlog -work work -sv -stats=none /filespace/r/rcastle/git/ECE552/WriteDecoder_4_16.sv
+Model Technology ModelSim DE vlog 2019.2 Compiler 2019.04 Apr 16 2019
+-- Compiling module WriteDecoder_4_16
+
+Top level modules:
+	WriteDecoder_4_16
+
+} {} {}} ../ECE552/Testbenches/RegFile_tb.sv {1 {vlog -work work -sv -stats=none /filespace/r/rcastle/git/ECE552/Testbenches/RegFile_tb.sv
+Model Technology ModelSim DE vlog 2019.2 Compiler 2019.04 Apr 16 2019
+-- Compiling module regfile_tb
+
+Top level modules:
+	regfile_tb
+
+} {} {}} /filespace/r/rcastle/git/ECE552/flag_register.v {1 {vlog -work work -stats=none /filespace/r/rcastle/git/ECE552/flag_register.v
+Model Technology ModelSim DE vlog 2019.2 Compiler 2019.04 Apr 16 2019
+-- Compiling module flag_register
+
+Top level modules:
+	flag_register
+
+} {} {}} ../ECE552/pc_control.sv {1 {vlog -work work -sv -stats=none /filespace/r/rcastle/git/ECE552/pc_control.sv
+Model Technology ModelSim DE vlog 2019.2 Compiler 2019.04 Apr 16 2019
+-- Compiling module PC_control
+
+Top level modules:
+	PC_control
+
+} {} {}} ../ECE552/PC_control_b.sv {1 {vlog -work work -sv -stats=none /filespace/r/rcastle/git/ECE552/PC_control_b.sv
+Model Technology ModelSim DE vlog 2019.2 Compiler 2019.04 Apr 16 2019
+-- Compiling module PC_control_b
+
+Top level modules:
+	PC_control_b
+
+} {} {}} /filespace/r/rcastle/git/ECE552/CLA_16bit.sv {1 {vlog -work work -sv -stats=none /filespace/r/rcastle/git/ECE552/CLA_16bit.sv
+Model Technology ModelSim DE vlog 2019.2 Compiler 2019.04 Apr 16 2019
+-- Compiling module CLA_16bit
+
+Top level modules:
+	CLA_16bit
+
+} {} {}} ../ECE552/Register.sv {1 {vlog -work work -sv -stats=none /filespace/r/rcastle/git/ECE552/Register.sv
+Model Technology ModelSim DE vlog 2019.2 Compiler 2019.04 Apr 16 2019
+-- Compiling module Register
+
+Top level modules:
+	Register
+
+} {} {}} ../ECE552/RegisterFile.sv {1 {vlog -work work -sv -stats=none /filespace/r/rcastle/git/ECE552/RegisterFile.sv
+Model Technology ModelSim DE vlog 2019.2 Compiler 2019.04 Apr 16 2019
+-- Compiling module RegisterFile
+
+Top level modules:
+	RegisterFile
+
+} {} {}} /filespace/r/rcastle/git/ECE552/full_adder_1bit.v {1 {vlog -work work -stats=none /filespace/r/rcastle/git/ECE552/full_adder_1bit.v
+Model Technology ModelSim DE vlog 2019.2 Compiler 2019.04 Apr 16 2019
+-- Compiling module full_adder_1bit
+
+Top level modules:
+	full_adder_1bit
+
+} {} {}} ../ECE552/memory.v {1 {vlog -work work -stats=none /filespace/r/rcastle/git/ECE552/memory.v
+Model Technology ModelSim DE vlog 2019.2 Compiler 2019.04 Apr 16 2019
+-- Compiling module memory1c
+
+Top level modules:
+	memory1c
+
+} {} {}} ../ECE552/ALU.v {1 {vlog -work work -stats=none /filespace/r/rcastle/git/ECE552/ALU.v
+Model Technology ModelSim DE vlog 2019.2 Compiler 2019.04 Apr 16 2019
+-- Compiling module ALU
+
+Top level modules:
+	ALU
+
+} {} {}} ../ECE552/PFA.sv {1 {vlog -work work -sv -stats=none /filespace/r/rcastle/git/ECE552/PFA.sv
+Model Technology ModelSim DE vlog 2019.2 Compiler 2019.04 Apr 16 2019
+-- Compiling module PFA
+
+Top level modules:
+	PFA
+
+} {} {}} /filespace/r/rcastle/git/ECE552/addsub_4bit.v {1 {vlog -work work -stats=none /filespace/r/rcastle/git/ECE552/addsub_4bit.v
+Model Technology ModelSim DE vlog 2019.2 Compiler 2019.04 Apr 16 2019
+-- Compiling module addsub_4bit
+
+Top level modules:
+	addsub_4bit
+
+} {} {}} ../ECE552/CLA_4bit.sv {1 {vlog -work work -sv -stats=none /filespace/r/rcastle/git/ECE552/CLA_4bit.sv
+Model Technology ModelSim DE vlog 2019.2 Compiler 2019.04 Apr 16 2019
+-- Compiling module CLA_4bit
+
+Top level modules:
+	CLA_4bit
+
+} {} {}} /filespace/r/rcastle/git/ECE552/CLA_8bit.v {1 {vlog -work work -stats=none /filespace/r/rcastle/git/ECE552/CLA_8bit.v
+Model Technology ModelSim DE vlog 2019.2 Compiler 2019.04 Apr 16 2019
+-- Compiling module CLA_8bit
+
+Top level modules:
+	CLA_8bit
+
+} {} {}} ../ECE552/ReadDecoder_4_16.sv {1 {vlog -work work -sv -stats=none /filespace/r/rcastle/git/ECE552/ReadDecoder_4_16.sv
+Model Technology ModelSim DE vlog 2019.2 Compiler 2019.04 Apr 16 2019
+-- Compiling module ReadDecoder_4_16
+
+Top level modules:
+	ReadDecoder_4_16
+
+} {} {}} ../ECE552/Testbenches/project-phase1-testbench/project-phase1-testbench/project-phase1-testbench.v {1 {vlog -work work -stats=none /filespace/r/rcastle/git/ECE552/Testbenches/project-phase1-testbench/project-phase1-testbench/project-phase1-testbench.v
+Model Technology ModelSim DE vlog 2019.2 Compiler 2019.04 Apr 16 2019
+-- Compiling module cpu_tb
+
+Top level modules:
+	cpu_tb
+
+} {} {}} ../ECE552/dff_16_bit.sv {1 {vlog -work work -sv -stats=none /filespace/r/rcastle/git/ECE552/dff_16_bit.sv
+Model Technology ModelSim DE vlog 2019.2 Compiler 2019.04 Apr 16 2019
+-- Compiling module dff_16bit
+
+Top level modules:
+	dff_16bit
+
+} {} {}} /filespace/r/rcastle/git/ECE552/Rotator_16bit.v {1 {vlog -work work -stats=none /filespace/r/rcastle/git/ECE552/Rotator_16bit.v
+Model Technology ModelSim DE vlog 2019.2 Compiler 2019.04 Apr 16 2019
+-- Compiling module Rotator
+
+Top level modules:
+	Rotator
+
+} {} {}} /filespace/r/rcastle/git/ECE552/RED_16bit.v {1 {vlog -work work -stats=none /filespace/r/rcastle/git/ECE552/RED_16bit.v
+Model Technology ModelSim DE vlog 2019.2 Compiler 2019.04 Apr 16 2019
+-- Compiling module RED_16bit
+
+Top level modules:
+	RED_16bit
+
+} {} {}} ../ECE552/cpu.v {1 {vlog -work work -stats=none /filespace/r/rcastle/git/ECE552/cpu.v
+Model Technology ModelSim DE vlog 2019.2 Compiler 2019.04 Apr 16 2019
+-- Compiling module cpu
+
+Top level modules:
+	cpu
+
+} {} {}} ../ECE552/Testbenches/ALU_test.v {1 {vlog -work work -stats=none /filespace/r/rcastle/git/ECE552/Testbenches/ALU_test.v
+Model Technology ModelSim DE vlog 2019.2 Compiler 2019.04 Apr 16 2019
+-- Compiling module ALU_test
+
+Top level modules:
+	ALU_test
+
+} {} {}}

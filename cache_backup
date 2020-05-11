@@ -1,0 +1,192 @@
+// The cache modules will have the following interface: 
+//     	one 16-bit (2-byte) data input port
+// 	one 16-bit (2-byte) data output port
+//	one 16-bit (2-byte) address input port
+//	one one-bit write-enable input signal
+
+module cache(wr_data_in, data_out, address_in, w_en, fsm_busy, 
+	     memory_address, memory_data, memory_data_valid, memory_request, enable, clk, rst_n); 
+
+	input [15:0] wr_data_in;
+	input [15:0] address_in;
+	input w_en, enable,clk, rst_n;
+	input [15:0] memory_data; // data returned by memory (after  delay)
+	input memory_data_valid; // active high indicates valid data returning on memory bus
+	output [15:0] memory_address;
+	output fsm_busy; // asserted while FSM is busy handling the miss (can be used as pipeline stall signal)
+	output memory_request;
+	output [15:0] data_out;
+      
+	// Internal Signals 
+	wire [5:0] tag;
+	wire [5:0] set_index;
+	wire [3:0] block_offset;
+	wire [127:0] block_enable;
+	wire [63:0] metadata_block_enable;
+	wire fsm_busy_sel;
+	
+	// Counter Signals
+	wire overflow_out; // Unused
+	wire [3:0] counter_out, counter_plus_one, counter_in, add_one, sub_eight;
+	
+	// State Machine Setup
+	wire curr_state; // Current state output of the flop
+	wire nxt_state; // Next output for the flop
+	wire idle_to_wait;
+	wire wait_to_wait;
+	wire wait_to_idle;
+	
+	// Misc signals
+	wire miss_detected;
+	wire [7:0] metadata_in1, metadata_out1, metadata_in2, metadata_out2, metadata_default_in;
+	wire [7:0] word_addr_hit, word_addr_miss, word_sel;
+	wire [15:0] data_array_data_in;
+	
+	wire [3:0] cache_to_mem_addr;
+	wire [3:0] cache_to_mem_addr_minus_2;
+	wire sub_overflow;
+	wire write_tag_array;	
+	wire block_upper;
+	
+	// Address parsing
+	assign tag = address_in[15:10];
+	assign set_index = address_in[9:4];
+	assign block_offset = address_in[3:0];
+
+
+	// if metadata valid is 0, then there's automatically a miss
+	// Otherwise Fcheck for the metadata out to be equal to the tag 	
+	//assign miss_detected = (~enable) ? 1'b0 : (metadata_out1[7] == 1'b0) ? 1'b1 : (metadata_out1[6:1] != tag); // Need to update for 2-way assoc. TODO
+	
+	assign miss_detected = (~rst_n | ~enable) ? 1'b0 : (curr_state) ? miss_detected  
+							 : (((metadata_out1[7] == 1'b0) | metadata_out1[6:1] != tag)) ? 1'b1
+							 : (((metadata_out2[7] == 1'b0) | metadata_out2[6:1] != tag)) ? 1'b1 : 1'b0;
+
+	assign memory_request = (~rst_n | ~enable) ? 1'b0 : miss_detected;
+
+	/////////////
+	// Counter //
+	/////////////
+
+	adder_4bit_safe add1 (.Sum(add_one),.A(counter_out), .B(4'b1));
+
+	adder_4bit_safe sub8 (.Sum(sub_eight), .A(memory_address[3:0]), .B(4'b1000));
+
+	assign counter_in = (~curr_state & nxt_state) ? 4'b1 : (~curr_state) ? 1'b0 : (miss_detected) ? add_one : counter_out;
+
+	// Hold the count
+	dff count_flop[3:0] (.q(counter_out), .d(counter_in), .wen(1'b1), .clk(clk), .rst(~rst_n));
+
+	///////////////////
+	// State Machine //
+	///////////////////
+	// State Machine input signals
+	// Idle to wait transition
+	//assign idle_to_wait = (curr_state == 1'b0) & miss_detected;
+	// Stay in wait 
+	//assign wait_to_wait = (curr_state == 1'b1) & ~wait_to_idle;
+	// Transition back to idle
+	//assign wait_to_idle = (curr_state == 1'b1) & memory_data_valid; // These might not be used actually
+	
+	assign nxt_state = ~curr_state ? miss_detected : (counter_out == 4'b1011) ? 1'b0 : 1'b1;
+	assign fsm_busy  = (enable) ? fsm_busy_sel : 1'b0;
+
+	// if a miss is detected, curr state is idle, otherwise in wait should be 1
+	// TODO
+	assign fsm_busy_sel = (~rst_n | ~enable) ? 1'b0 : ~curr_state ? miss_detected : fsm_busy_sel;
+	
+	// State 0 Idle State
+	// State 1 Wait State
+	dff State_flop(.q(curr_state), .d(nxt_state), .wen(1'b1), .clk(clk), .rst(~rst_n));
+	
+	// Description: Miss is detected, then bring in the correct block from memory into the cache
+	// 8 chunks of data (sequentially)   
+	
+	/////////////
+	// Counter //
+	/////////////
+	// Count for eight cycles
+	// Only increment counter if we are in wait and memory data is valid
+
+			//(curr_state & memory_data_valid) ? counter_plus_one : 
+			//(curr_state == 1'b0 & nxt_state == 1'b1) ? 1'b0 : counter_out;
+	// Perform the increment
+	//adder_3_bit adder_3_bit(.sum(counter_plus_one), .A(counter_out), .B(3'b1), .ovfl_out(overflow_out));
+	
+
+	
+	////////////
+	// Memory //
+	////////////
+	assign memory_address = (~rst_n | ~enable) ? 1'b0 : {tag, set_index, counter_out[2:0], 1'b0};
+	
+	// becomes one after the first valid data, stays until data is invalid
+	assign write_data_array = (curr_state & memory_data_valid); 
+	
+	// Only write tag on the 8th cycle
+	assign write_tag_array = (curr_state & counter_out == 4'b1011) ? 1'b1 : 1'b0;
+		
+	assign metadata_default_in = {1'b1, tag, 1'b0}; // {valid, tag, LRU?} TODO LRU? 
+	
+	assign metadata_in1 = (~rst_n) ? 8'b0 : (~block_upper ? metadata_default_in : {metadata_out1[7:1], 1'b1}); 
+	assign metadata_in2 = (~rst_n) ? 8'b0 : ( block_upper ? metadata_default_in : {metadata_out2[7:1], 1'b1}); 
+	//assign cache_to_mem_addr = (~rst_n | ~enable) ? 1'b0 : {tag, set_index, counter_out[2:0], 1'b0}; //TODO
+
+
+	//addsub_4bit sub(.Sum(cache_to_mem_addr_minus_2), .Ovfl(sub_overflow),.A(cache_to_mem_addr[3:0]), .B(4'b1000), .sub(1'b1));  //TODO
+
+	// Decode for which block we care about 
+	// for data
+	
+	assign block_upper = (metadata_out1[7] == 1'b0 & metadata_out2[7] == 1'b0)  ? 1'b0 	// Both are empty, write to lower
+			   : (metadata_out1[7] == 1'b1 & metadata_out1[6:1] == tag) ? 1'b0	// hit on lower
+			   : (metadata_out2[7] == 1'b1 & metadata_out2[6:1] == tag) ? 1'b1	// hit on upper
+			   : (metadata_out1[7] == 1'b1 & metadata_out2[7] == 1'b0)  ? 1'b1	// miss on lower, upper is empty
+			   : (metadata_out1[7] == 1'b1 & metadata_out1[0] == 1'b1)  ? 1'b0	// miss on both, lower is LRU 	
+			   : (metadata_out2[7] == 1'b1 & metadata_out2[0] == 1'b1)  ? 1'b1 : 1'b0;		// miss on both, upper is LRU 
+	
+	wire [63:0] set_decoded;
+	decoder7to128 decoder_1(.encoded({set_index, block_upper}), .decoded(block_enable));
+	decoder6to64 decoder_2(.encoded(set_index), .decoded(set_decoded));
+	decoder3to8 decoder_3(.encoded(block_offset[3:1]), .decoded(word_addr_hit));
+	decoder3to8 decoder_4(.encoded(sub_eight[3:1]), .decoded(word_addr_miss));
+	// Data comes from memory or the instruction
+	assign data_array_data_in = miss_detected ? memory_data : wr_data_in;	
+	
+
+	assign word_sel = ~miss_detected ? word_addr_hit : word_addr_miss;
+	assign metadata_block_enable = set_decoded;
+	wire wr_data;
+	assign wr_data = w_en & ~miss_detected;
+
+	// Data and metadata arrays
+	DataArray data_array(.clk(clk), .rst(~rst_n), .DataIn(data_array_data_in), 
+		  .Write(wr_data | write_data_array), .BlockEnable(block_enable), 
+		  .DataOut(data_out), .WordEnable(word_sel & {8{enable}}));
+	
+	MetaDataArray metadata_arrayLower(.clk(clk), .rst(~rst_n), .DataIn(metadata_in1), .Write(write_tag_array), 
+		  .BlockEnable(metadata_block_enable & {64{enable}}), .DataOut(metadata_out1));
+	
+	MetaDataArray metadata_arrayUpper(.clk(clk), .rst(~rst_n), .DataIn(metadata_in2), .Write(write_tag_array), 
+		  .BlockEnable(metadata_block_enable & {64{enable}}), .DataOut(metadata_out2));
+
+endmodule          
+
+module adder_4bit_safe(Sum, A, B);
+
+input[3:0] A;
+input [3:0] B;
+output [3:0] Sum;
+
+
+wire [3:0] Cout;
+
+full_adder_1bit FA0 (A[0], B[0], 1'b0, Sum[0], Cout[0], 1'b0);
+full_adder_1bit FA1 (A[1], B[1], Cout[0], Sum[1], Cout[1], 1'b0);
+full_adder_1bit FA2 (A[2], B[2], Cout[1], Sum[2], Cout[2], 1'b0);
+full_adder_1bit FA3 (A[3], B[3], Cout[2], Sum[3], Cout[3], 1'b0);
+
+
+endmodule
+       
+

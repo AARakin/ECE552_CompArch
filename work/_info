@@ -1,0 +1,1254 @@
+m255
+K4
+z2
+!s11f vlog 2019.2 2019.04, Apr 16 2019
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/filespace/r/rcastle/git/ECE552
+vadder_3_bit
+Z1 !s110 1575820021
+!i10b 1
+!s100 hB5ka<A3EXKd@XzZXeiVC0
+!s11b >?@:MF:bQA:YPT?CPdWS]3
+IAmeMW@d@lIkCd5Q5^=1Jc1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1575737457
+8/filespace/r/rcastle/git/ECE552/adder_3_bit.v
+F/filespace/r/rcastle/git/ECE552/adder_3_bit.v
+L0 1
+Z4 OP;L;2019.2;69
+r1
+!s85 0
+31
+Z5 !s108 1575820021.000000
+!s107 /filespace/r/rcastle/git/ECE552/adder_3_bit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/filespace/r/rcastle/git/ECE552/adder_3_bit.v|
+!i113 1
+Z6 o-work work
+Z7 tCvgOpt 0
+vadder_4bit_safe
+R1
+!i10b 1
+!s100 6<A`LKZRkS[4<`dYYO:BJ1
+!s11b PY>8@KC69e7QbcJ[X>4_22
+IMhcXRlH6enVaQcHb]X4Bi0
+R2
+R0
+Z8 w1575773589
+Z9 8/filespace/r/rcastle/git/ECE552/cache.v
+Z10 F/filespace/r/rcastle/git/ECE552/cache.v
+L0 185
+R4
+r1
+!s85 0
+31
+R5
+Z11 !s107 /filespace/r/rcastle/git/ECE552/cache.v|
+Z12 !s90 -reportprogress|300|-work|work|-stats=none|/filespace/r/rcastle/git/ECE552/cache.v|
+!i113 1
+R6
+R7
+vaddsub_4bit
+Z13 !s110 1575820016
+!i10b 1
+!s100 >ceeLZP6a``@2a>5QL8X12
+!s11b 9SH6<M8b;Pm=S=zaIE@`H0
+I<9GJA^_2=S5249PE?WJ`h1
+R2
+R0
+Z14 w1572550701
+8/filespace/r/rcastle/git/ECE552/addsub_4bit.v
+F/filespace/r/rcastle/git/ECE552/addsub_4bit.v
+L0 6
+R4
+r1
+!s85 0
+31
+Z15 !s108 1575820016.000000
+!s107 /filespace/r/rcastle/git/ECE552/addsub_4bit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/filespace/r/rcastle/git/ECE552/addsub_4bit.v|
+!i113 1
+R6
+R7
+vALU
+R13
+!i10b 1
+!s100 D>kk2DE>nhLOiMB0o4eMI1
+!s11b :>7:3]_Z8dZ>i;CPK1JJP1
+Ik2zR32<7@b[P_74?]4_ME3
+R2
+R0
+R8
+8/filespace/r/rcastle/git/ECE552/ALU.v
+F/filespace/r/rcastle/git/ECE552/ALU.v
+L0 1
+R4
+r1
+!s85 0
+31
+R15
+!s107 /filespace/r/rcastle/git/ECE552/ALU.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/filespace/r/rcastle/git/ECE552/ALU.v|
+!i113 1
+R6
+R7
+n@a@l@u
+vALU_test
+Z16 !s110 1572911114
+!i10b 1
+!s100 R^bOQP<GoUf]hClL9E[Zm0
+!s11b eXBWMLnn^fTlFzNU0@ICK2
+ID@UaQgKzZIG4=Bj:nKh^[2
+R2
+R0
+R14
+8/filespace/r/rcastle/git/ECE552/Testbenches/phase1/ALU_test.v
+F/filespace/r/rcastle/git/ECE552/Testbenches/phase1/ALU_test.v
+L0 5
+R4
+r1
+!s85 0
+31
+Z17 !s108 1572911114.000000
+!s107 /filespace/r/rcastle/git/ECE552/Testbenches/phase1/ALU_test.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/filespace/r/rcastle/git/ECE552/Testbenches/phase1/ALU_test.v|
+!i113 1
+R6
+R7
+n@a@l@u_test
+vBitCell
+Z18 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+R13
+!i10b 1
+!s100 km8n<@kf7WnnkhJJnTW:70
+!s11b JUdQ]iTe^?o5c0@TV_dA;3
+INLUalk`?NQO1Nz_2_eCP73
+R2
+S1
+R0
+Z19 w1572550700
+8/filespace/r/rcastle/git/ECE552/BitCell.sv
+F/filespace/r/rcastle/git/ECE552/BitCell.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R15
+!s107 /filespace/r/rcastle/git/ECE552/BitCell.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/filespace/r/rcastle/git/ECE552/BitCell.sv|
+!i113 1
+Z20 o-work work -sv
+R7
+n@bit@cell
+vBlock
+Z21 !s110 1575820020
+!i10b 1
+!s100 9_OEHb:AegHE0n6jc1>M51
+!s11b ZJO0LPGIGdf>G9^5lEbZG0
+IC<jLD6=@RKmBWF[zW]dg:3
+R2
+R0
+R3
+Z22 8/filespace/r/rcastle/git/ECE552/DataArray.v
+Z23 F/filespace/r/rcastle/git/ECE552/DataArray.v
+L0 11
+R4
+r1
+!s85 0
+31
+Z24 !s108 1575820020.000000
+Z25 !s107 /filespace/r/rcastle/git/ECE552/DataArray.v|
+Z26 !s90 -reportprogress|300|-work|work|-stats=none|/filespace/r/rcastle/git/ECE552/DataArray.v|
+!i113 1
+R6
+R7
+n@block
+vcache
+R1
+!i10b 1
+!s100 li5fB0]22Rnjo297nRl4c2
+!s11b B`XG9D?bZ<PSH96CS:37@0
+I;`JK9JcaQ5R;L4iT3Pz<R0
+R2
+R0
+R8
+R9
+R10
+L0 7
+R4
+r1
+!s85 0
+31
+R5
+R11
+R12
+!i113 1
+R6
+R7
+vCLA_16bit
+Z27 !s110 1575820017
+!i10b 1
+!s100 ?7zHF0Wi6YaT1`h8m`ULD0
+!s11b gcU9AIIN2m]HX3R4Tb_gF3
+I=Rzmb7FY=DH1QXbOgg=AK2
+R2
+R0
+R19
+8/filespace/r/rcastle/git/ECE552/CLA_16bit.v
+F/filespace/r/rcastle/git/ECE552/CLA_16bit.v
+L0 1
+R4
+r1
+!s85 0
+31
+Z28 !s108 1575820017.000000
+!s107 /filespace/r/rcastle/git/ECE552/CLA_16bit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/filespace/r/rcastle/git/ECE552/CLA_16bit.v|
+!i113 1
+R6
+R7
+n@c@l@a_16bit
+vCLA_4bit
+R18
+R13
+!i10b 1
+!s100 VKI1fN>n8BJmeWLcE;QN>2
+!s11b iXQKC8LcJ;7a2cEkTk<G01
+IJjJMR><@FZNgANoCk0PfI0
+R2
+S1
+R0
+R19
+8/filespace/r/rcastle/git/ECE552/CLA_4bit.sv
+F/filespace/r/rcastle/git/ECE552/CLA_4bit.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R15
+!s107 /filespace/r/rcastle/git/ECE552/CLA_4bit.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/filespace/r/rcastle/git/ECE552/CLA_4bit.sv|
+!i113 1
+R20
+R7
+n@c@l@a_4bit
+vCLA_8bit
+R13
+!i10b 1
+!s100 PIl]NmiJ[kMd9@C4DCiL61
+!s11b 88B8II`n<o2:G8HbYA`S83
+InORWnDF]Adkz>[9ML6V`O0
+R2
+R0
+R19
+8/filespace/r/rcastle/git/ECE552/CLA_8bit.v
+F/filespace/r/rcastle/git/ECE552/CLA_8bit.v
+L0 1
+R4
+r1
+!s85 0
+31
+R15
+!s107 /filespace/r/rcastle/git/ECE552/CLA_8bit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/filespace/r/rcastle/git/ECE552/CLA_8bit.v|
+!i113 1
+R6
+R7
+n@c@l@a_8bit
+vcpu
+R27
+!i10b 1
+!s100 b=ga6OoR6czBYmFgNk5571
+!s11b ^Qz4AHCUCljd45IibQC?P2
+IF;Sz@RTI:clleVQcV[zoQ3
+R2
+R0
+w1575819968
+8/filespace/r/rcastle/git/ECE552/cpu.v
+F/filespace/r/rcastle/git/ECE552/cpu.v
+L0 1
+R4
+r1
+!s85 0
+31
+R28
+!s107 /filespace/r/rcastle/git/ECE552/cpu.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/filespace/r/rcastle/git/ECE552/cpu.v|
+!i113 1
+R6
+R7
+vcpu_ptb
+R21
+!i10b 1
+!s100 D;hkVWQPZ=_9^hW]o8S0_0
+!s11b mDTEaOkgBz]JPjh_bGSTJ3
+Ie_;k[lb5;GAY]WGAjF=cg1
+R2
+R0
+Z29 w1575756090
+8/filespace/r/rcastle/git/ECE552/project-phase3-testbench.v
+F/filespace/r/rcastle/git/ECE552/project-phase3-testbench.v
+L0 1
+R4
+r1
+!s85 0
+31
+R24
+!s107 /filespace/r/rcastle/git/ECE552/project-phase3-testbench.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/filespace/r/rcastle/git/ECE552/project-phase3-testbench.v|
+!i113 1
+R6
+R7
+vcpu_ptb2
+R21
+!i10b 1
+!s100 2>Rn>8aQiODYk1[8N=n^B2
+!s11b Yki>?^VW1WP>FU3Fhenad1
+Iz`4ZEHg6A>ki084QZXOTK3
+R2
+R0
+R3
+8/filespace/r/rcastle/git/ECE552/Testbenches/project-phase2-testbench.v
+F/filespace/r/rcastle/git/ECE552/Testbenches/project-phase2-testbench.v
+L0 1
+R4
+r1
+!s85 0
+31
+R24
+!s107 /filespace/r/rcastle/git/ECE552/Testbenches/project-phase2-testbench.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/filespace/r/rcastle/git/ECE552/Testbenches/project-phase2-testbench.v|
+!i113 1
+R6
+R7
+vcpu_tb
+R16
+!i10b 1
+!s100 VaKKc5BlXYB7OHF<0AF8U1
+!s11b _Ud8F7`koEJRWFWVGFTHQ2
+IGG]C2V6P=RSRne[IX3UhW2
+R2
+R0
+R14
+8/filespace/r/rcastle/git/ECE552/Testbenches/phase1/project-phase1-testbench/project-phase1-testbench/project-phase1-testbench.v
+F/filespace/r/rcastle/git/ECE552/Testbenches/phase1/project-phase1-testbench/project-phase1-testbench/project-phase1-testbench.v
+L0 1
+R4
+r1
+!s85 0
+31
+R17
+!s107 /filespace/r/rcastle/git/ECE552/Testbenches/phase1/project-phase1-testbench/project-phase1-testbench/project-phase1-testbench.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/filespace/r/rcastle/git/ECE552/Testbenches/phase1/project-phase1-testbench/project-phase1-testbench/project-phase1-testbench.v|
+!i113 1
+R6
+R7
+vDataArray
+R21
+!i10b 1
+!s100 A>SH?XAHzRQnzjYBWnoa?1
+!s11b iR[HaC8FBzRb:GCnc]9zU3
+IKk7DSJd@Y4WHgU:K_^3om3
+R2
+R0
+R3
+R22
+R23
+L0 6
+R4
+r1
+!s85 0
+31
+R24
+R25
+R26
+!i113 1
+R6
+R7
+n@data@array
+vDCell
+R21
+!i10b 1
+!s100 z6C6@V8^FMUm5Fz605jRh2
+!s11b ?=5FPNWBzkF7Uh>fc8FGL1
+IgkmS_Lm8Bj^U0kgkS9?zR2
+R2
+R0
+R3
+R22
+R23
+Z30 L0 24
+R4
+r1
+!s85 0
+31
+R24
+R25
+R26
+!i113 1
+R6
+R7
+n@d@cell
+vdecoder3to8
+R1
+!i10b 1
+!s100 [5oLeSnlin[kK6mWA^=?T1
+!s11b iU<z7eb<N;?UnXmg;FLD[1
+IPOh_:fd4E5LGQiB`EO8RV0
+R2
+R0
+w1575738279
+8/filespace/r/rcastle/git/ECE552/decode3to8.v
+F/filespace/r/rcastle/git/ECE552/decode3to8.v
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 /filespace/r/rcastle/git/ECE552/decode3to8.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/filespace/r/rcastle/git/ECE552/decode3to8.v|
+!i113 1
+R6
+R7
+vdecoder6to64
+R1
+!i10b 1
+!s100 PLjnW[dDaf?lSkTbZj0o13
+!s11b jlgnfoWOn39Yn:<kZC^3J2
+I<>zVTjgfHYMzEOYbYE50b2
+R2
+R0
+R29
+8/filespace/r/rcastle/git/ECE552/decode6to64.v
+F/filespace/r/rcastle/git/ECE552/decode6to64.v
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 /filespace/r/rcastle/git/ECE552/decode6to64.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/filespace/r/rcastle/git/ECE552/decode6to64.v|
+!i113 1
+R6
+R7
+vdecoder7to128
+R1
+!i10b 1
+!s100 b2lgH]V4XIPkhdkzmVgZG3
+!s11b n>NoYRzF>270_Pa6>8GUQ2
+InHd<DN[XR0cViToQS4L141
+R2
+R0
+R3
+8/filespace/r/rcastle/git/ECE552/decode7to128.v
+F/filespace/r/rcastle/git/ECE552/decode7to128.v
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 /filespace/r/rcastle/git/ECE552/decode7to128.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/filespace/r/rcastle/git/ECE552/decode7to128.v|
+!i113 1
+R6
+R7
+vdff
+R27
+!i10b 1
+!s100 Z9V@F2c50oH6kZfdURZd60
+!s11b zJ]]b^6lFmZ@]7WPMLFn?1
+Ikch56FKFF8MfIY;Wn`F@k0
+R2
+R0
+w1572552173
+8/filespace/r/rcastle/git/ECE552/D-Flip-Flop.v
+F/filespace/r/rcastle/git/ECE552/D-Flip-Flop.v
+L0 3
+R4
+r1
+!s85 0
+31
+R28
+!s107 /filespace/r/rcastle/git/ECE552/D-Flip-Flop.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/filespace/r/rcastle/git/ECE552/D-Flip-Flop.v|
+!i113 1
+R6
+R7
+vdff_16bit
+R18
+R27
+!i10b 1
+!s100 9:4@`fS=9`5m]e2G6Vd<b2
+!s11b ho<d[TQck@jSL5MiLm3;Y2
+IJAE3CcB_SdeeME]0_nO2j1
+R2
+S1
+R0
+R14
+8/filespace/r/rcastle/git/ECE552/dff_16_bit.sv
+F/filespace/r/rcastle/git/ECE552/dff_16_bit.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R28
+!s107 /filespace/r/rcastle/git/ECE552/dff_16_bit.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/filespace/r/rcastle/git/ECE552/dff_16_bit.sv|
+!i113 1
+R20
+R7
+vdff_32bit
+R27
+!i10b 1
+!s100 e8SBR:9L?l1Pc7j8>U?ML0
+!s11b l>a=dT=Y`XJSQo;i]A`iP0
+IIkoHT[B9WOmlF4O_i_V6M1
+R2
+R0
+w1572626131
+8/filespace/r/rcastle/git/ECE552/dff_32_bit.v
+F/filespace/r/rcastle/git/ECE552/dff_32_bit.v
+L0 1
+R4
+r1
+!s85 0
+31
+R28
+!s107 /filespace/r/rcastle/git/ECE552/dff_32_bit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/filespace/r/rcastle/git/ECE552/dff_32_bit.v|
+!i113 1
+R6
+R7
+vdff_3bit
+R1
+!i10b 1
+!s100 1[RXT:7IgR>ScU[X4mTYo0
+!s11b VUbi0MU9gZTGD4ISJCHM^1
+ILlXJob7n3;<1J[H@B4T[Y3
+R2
+R0
+R3
+8/filespace/r/rcastle/git/ECE552/D-Flip-Flop_3_Bit.v
+F/filespace/r/rcastle/git/ECE552/D-Flip-Flop_3_Bit.v
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 /filespace/r/rcastle/git/ECE552/D-Flip-Flop_3_Bit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/filespace/r/rcastle/git/ECE552/D-Flip-Flop_3_Bit.v|
+!i113 1
+R6
+R7
+vdff_4bit
+R27
+!i10b 1
+!s100 Y6AScUOCVLn7<ERl1lNMZ1
+!s11b aG8V0>gP6IYBMLa98=LN90
+IBmSJZ;mA@4WPCFo4kP^0N1
+R2
+R0
+w1572624101
+8/filespace/r/rcastle/git/ECE552/dff_4_bit.v
+F/filespace/r/rcastle/git/ECE552/dff_4_bit.v
+L0 1
+R4
+r1
+!s85 0
+31
+R28
+!s107 /filespace/r/rcastle/git/ECE552/dff_4_bit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/filespace/r/rcastle/git/ECE552/dff_4_bit.v|
+!i113 1
+R6
+R7
+vDWord
+R21
+!i10b 1
+!s100 dHnQeAiiP:?hB[UD6`Y3O1
+!s11b 5XWF7L[S^Sioa[ZGR8RCP1
+IgIUBiHaiB07i=Nf;^oP_V3
+R2
+R0
+R3
+R22
+R23
+L0 19
+R4
+r1
+!s85 0
+31
+R24
+R25
+R26
+!i113 1
+R6
+R7
+n@d@word
+vex_mem_flop
+R27
+!i10b 1
+!s100 XfX7QFmfGR;K3doGaET6:0
+!s11b =eO3:75=5d0Wg4Nh:U]Em0
+I6:]2OSnSF>BKgB`j3eX<J0
+R2
+R0
+R8
+8/filespace/r/rcastle/git/ECE552/EX_MEM_flop.v
+F/filespace/r/rcastle/git/ECE552/EX_MEM_flop.v
+L0 1
+R4
+r1
+!s85 0
+31
+R28
+!s107 /filespace/r/rcastle/git/ECE552/EX_MEM_flop.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/filespace/r/rcastle/git/ECE552/EX_MEM_flop.v|
+!i113 1
+R6
+R7
+vflag_reg_tb
+R18
+R16
+!i10b 1
+!s100 ]fj8AG7LfPD]=6[B?`gV82
+!s11b Cn=lSJUR?QNO8k<RcJiRV2
+I>G7R[SEP>iTZS_@akSzT60
+R2
+S1
+R0
+R14
+8/filespace/r/rcastle/git/ECE552/Testbenches/phase1/flag_reg_tb.sv
+F/filespace/r/rcastle/git/ECE552/Testbenches/phase1/flag_reg_tb.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R17
+!s107 /filespace/r/rcastle/git/ECE552/Testbenches/phase1/flag_reg_tb.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/filespace/r/rcastle/git/ECE552/Testbenches/phase1/flag_reg_tb.sv|
+!i113 1
+R20
+R7
+vflag_register
+R27
+!i10b 1
+!s100 ;U8d;Nc9W_eVGddecPi8j1
+!s11b Q1a]2GU8hnYX<VD8=o?O00
+I>NRZYD9f=T5]CzcOJPPSB2
+R2
+R0
+R14
+8/filespace/r/rcastle/git/ECE552/flag_register.v
+F/filespace/r/rcastle/git/ECE552/flag_register.v
+L0 1
+R4
+r1
+!s85 0
+31
+R28
+!s107 /filespace/r/rcastle/git/ECE552/flag_register.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/filespace/r/rcastle/git/ECE552/flag_register.v|
+!i113 1
+R6
+R7
+vforward
+Z31 !s110 1575820018
+!i10b 1
+!s100 _DX8Z@4^HS8[DOJbkj>Ge0
+!s11b jz?BJ]ljF`mR`XYl8VKkl1
+IfYzdzm2V8>@_UNQZ0b0ec0
+R2
+R0
+w1575737812
+8/filespace/r/rcastle/git/ECE552/ForwardingUnit.v
+F/filespace/r/rcastle/git/ECE552/ForwardingUnit.v
+L0 1
+R4
+r1
+!s85 0
+31
+R28
+!s107 /filespace/r/rcastle/git/ECE552/ForwardingUnit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/filespace/r/rcastle/git/ECE552/ForwardingUnit.v|
+!i113 1
+R6
+R7
+vfull_adder_1bit
+R31
+!i10b 1
+!s100 9Fhng^L3?]jkfoL8Ck7HM3
+!s11b a5<`Io`FnR`UAE8j>heaU0
+I63HHM;1eM[SKzDR;1BEHf2
+R2
+R0
+R29
+8/filespace/r/rcastle/git/ECE552/full_adder_1bit.v
+F/filespace/r/rcastle/git/ECE552/full_adder_1bit.v
+L0 6
+R4
+r1
+!s85 0
+31
+Z32 !s108 1575820018.000000
+!s107 /filespace/r/rcastle/git/ECE552/full_adder_1bit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/filespace/r/rcastle/git/ECE552/full_adder_1bit.v|
+!i113 1
+R6
+R7
+vhazard_detection
+R31
+!i10b 1
+!s100 iT6<iaIJ8d_4d?h9<=GM43
+!s11b He;E:lXPMI?f^371A@:?k1
+ILdZeKTL:dGbGHEzE[P9Jj3
+R2
+R0
+w1575815920
+8/filespace/r/rcastle/git/ECE552/Hazard_Detection.v
+F/filespace/r/rcastle/git/ECE552/Hazard_Detection.v
+L0 1
+R4
+r1
+!s85 0
+31
+R32
+!s107 /filespace/r/rcastle/git/ECE552/Hazard_Detection.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/filespace/r/rcastle/git/ECE552/Hazard_Detection.v|
+!i113 1
+R6
+R7
+vid_ex_flop
+R31
+!i10b 1
+!s100 VGY1z4fjI40X2lV6I4BEh2
+!s11b cMn>nYS9f0YUh<14H]ODL3
+I64Ldo4ZVHnZ>bTWV@j?bT3
+R2
+R0
+R8
+8/filespace/r/rcastle/git/ECE552/ID_EX_flop.v
+F/filespace/r/rcastle/git/ECE552/ID_EX_flop.v
+L0 1
+R4
+r1
+!s85 0
+31
+R32
+!s107 /filespace/r/rcastle/git/ECE552/ID_EX_flop.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/filespace/r/rcastle/git/ECE552/ID_EX_flop.v|
+!i113 1
+R6
+R7
+vif_id_flop
+R31
+!i10b 1
+!s100 3gmT[QjiQciJOZJXMffY43
+!s11b `MD^d1N``AMMVXOY_Pn4T1
+IHc:5]aR_h=lCSKf2H1TdE3
+R2
+R0
+w1575819993
+8/filespace/r/rcastle/git/ECE552/IF_ID_flop.v
+F/filespace/r/rcastle/git/ECE552/IF_ID_flop.v
+L0 1
+R4
+r1
+!s85 0
+31
+R32
+!s107 /filespace/r/rcastle/git/ECE552/IF_ID_flop.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/filespace/r/rcastle/git/ECE552/IF_ID_flop.v|
+!i113 1
+R6
+R7
+vMBlock
+R21
+!i10b 1
+!s100 F<[agXiEVmYBa7U;cBMEh3
+!s11b c3Q_H1cZOF^^zCAn^JDTa0
+IF?0YWkz[l7O<[24bLhUm`1
+R2
+R0
+R29
+Z33 8/filespace/r/rcastle/git/ECE552/MetaDataArray.v
+Z34 F/filespace/r/rcastle/git/ECE552/MetaDataArray.v
+L0 10
+R4
+r1
+!s85 0
+31
+R24
+Z35 !s107 /filespace/r/rcastle/git/ECE552/MetaDataArray.v|
+Z36 !s90 -reportprogress|300|-work|work|-stats=none|/filespace/r/rcastle/git/ECE552/MetaDataArray.v|
+!i113 1
+R6
+R7
+n@m@block
+vMCell
+R21
+!i10b 1
+!s100 m>5VC4AEXZmOR4k4Ra4^>3
+!s11b aHA51A7YoRPnW^4TmH7mV2
+I7_O<E@Zd^eg2XGOMkz<3>3
+R2
+R0
+R29
+R33
+R34
+L0 14
+R4
+r1
+!s85 0
+31
+R24
+R35
+R36
+!i113 1
+R6
+R7
+n@m@cell
+vmem_wb_flop
+R31
+!i10b 1
+!s100 ?GNHjUMiGY<YP?o;N7a:^2
+!s11b ^^gb_zXfPT<J7Bc=N7?6P0
+IDI;mD0J6^O19;cUWBA@F=2
+R2
+R0
+R8
+8/filespace/r/rcastle/git/ECE552/MEM_WB_flop.v
+F/filespace/r/rcastle/git/ECE552/MEM_WB_flop.v
+L0 1
+R4
+r1
+!s85 0
+31
+R32
+!s107 /filespace/r/rcastle/git/ECE552/MEM_WB_flop.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/filespace/r/rcastle/git/ECE552/MEM_WB_flop.v|
+!i113 1
+R6
+R7
+vmemory1c
+R31
+!i10b 1
+!s100 [AmbjjH]ldzki7GFR=`M]1
+!s11b dL<@O[cCBiDSmK0z_gWSY3
+IlABoc]3diGGI5eKMO=FTJ3
+R2
+R0
+R14
+8/filespace/r/rcastle/git/ECE552/memory.v
+F/filespace/r/rcastle/git/ECE552/memory.v
+L0 31
+R4
+r1
+!s85 0
+31
+R32
+!s107 /filespace/r/rcastle/git/ECE552/memory.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/filespace/r/rcastle/git/ECE552/memory.v|
+!i113 1
+R6
+R7
+vmemory4c
+R1
+!i10b 1
+!s100 Y^QGh^JnhaRM3A379Go023
+!s11b 4EbPASb0DGZf<;URf:dDO1
+I[_8<MkFH8g:`zB`b^:POg2
+R2
+R0
+R3
+8/filespace/r/rcastle/git/ECE552/multicycle_memory.v
+F/filespace/r/rcastle/git/ECE552/multicycle_memory.v
+R30
+R4
+r1
+!s85 0
+31
+R5
+!s107 /filespace/r/rcastle/git/ECE552/multicycle_memory.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/filespace/r/rcastle/git/ECE552/multicycle_memory.v|
+!i113 1
+R6
+R7
+vMetaDataArray
+R21
+!i10b 1
+!s100 ldE`N8M;>:mXI3mT9YMKO1
+!s11b 6^O6iUL;PaQz:D@61n:o>2
+IZ^PYA>dSOJ2BzSEz^K55D3
+R2
+R0
+R29
+R33
+R34
+L0 6
+R4
+r1
+!s85 0
+31
+R24
+R35
+R36
+!i113 1
+R6
+R7
+n@meta@data@array
+vPC_control
+R18
+Z37 !s110 1575820019
+!i10b 1
+!s100 aUU4=`Ql`?8ok1lT2VRzd1
+!s11b >]VKc5URTOZzI_L9l0J5A1
+IQNkzX=^RhXHaO4;f1<5ic1
+R2
+S1
+R0
+w1575820014
+8/filespace/r/rcastle/git/ECE552/pc_control.sv
+F/filespace/r/rcastle/git/ECE552/pc_control.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R32
+!s107 /filespace/r/rcastle/git/ECE552/pc_control.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/filespace/r/rcastle/git/ECE552/pc_control.sv|
+!i113 1
+R20
+R7
+n@p@c_control
+vPC_control_b
+R18
+R37
+!i10b 1
+!s100 Jm@9c<89>C1o_icX2`F`41
+!s11b z900zVPEO085D?JD9<SGm2
+I02cME6f90nz;j;A3_>aRn1
+R2
+S1
+R0
+w1575791268
+8/filespace/r/rcastle/git/ECE552/PC_control_b.sv
+F/filespace/r/rcastle/git/ECE552/PC_control_b.sv
+L0 1
+R4
+r1
+!s85 0
+31
+Z38 !s108 1575820019.000000
+!s107 /filespace/r/rcastle/git/ECE552/PC_control_b.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/filespace/r/rcastle/git/ECE552/PC_control_b.sv|
+!i113 1
+R20
+R7
+n@p@c_control_b
+vPC_control_br
+R18
+R37
+!i10b 1
+!s100 o^4KX>1N53c6IAbN=e6bc3
+!s11b YJLaW5l33V=T8amB:nOde1
+IlLFlV2f]kI7][calXPeBf3
+R2
+S1
+R0
+R19
+8/filespace/r/rcastle/git/ECE552/PC_control_br.sv
+F/filespace/r/rcastle/git/ECE552/PC_control_br.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R38
+!s107 /filespace/r/rcastle/git/ECE552/PC_control_br.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/filespace/r/rcastle/git/ECE552/PC_control_br.sv|
+!i113 1
+R20
+R7
+n@p@c_control_br
+vpc_tb
+R18
+R16
+!i10b 1
+!s100 n9D_eCFW0e<]O7mhBN6_62
+!s11b 1I1KilV1E@<YSORcfaIj[2
+I?SQAPhSVnTKIDGm8zzC^e3
+R2
+S1
+R0
+R14
+8/filespace/r/rcastle/git/ECE552/Testbenches/phase1/pc_tb.sv
+F/filespace/r/rcastle/git/ECE552/Testbenches/phase1/pc_tb.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R17
+!s107 /filespace/r/rcastle/git/ECE552/Testbenches/phase1/pc_tb.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/filespace/r/rcastle/git/ECE552/Testbenches/phase1/pc_tb.sv|
+!i113 1
+R20
+R7
+vPFA
+R18
+R37
+!i10b 1
+!s100 j;;6VoO7Z;LF6L>WOQ93c2
+!s11b JH??QU4^=93YS6AbbA2dl3
+IZOWBi7;2baIRKWe?IBo8Y0
+R2
+S1
+R0
+R19
+8/filespace/r/rcastle/git/ECE552/PFA.sv
+F/filespace/r/rcastle/git/ECE552/PFA.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R38
+!s107 /filespace/r/rcastle/git/ECE552/PFA.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/filespace/r/rcastle/git/ECE552/PFA.sv|
+!i113 1
+R20
+R7
+n@p@f@a
+vPSA_16bit
+R18
+R37
+!i10b 1
+!s100 RVg9@:YbeOIERO>=e4V473
+!s11b G0KQB>TK=mTh21JVI94]j3
+Izf0H2;QRlg[eHoGgYh3:F2
+R2
+S1
+R0
+R19
+8/filespace/r/rcastle/git/ECE552/PSA_16bit.sv
+F/filespace/r/rcastle/git/ECE552/PSA_16bit.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R38
+!s107 /filespace/r/rcastle/git/ECE552/PSA_16bit.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/filespace/r/rcastle/git/ECE552/PSA_16bit.sv|
+!i113 1
+R20
+R7
+n@p@s@a_16bit
+vReadDecoder_4_16
+R18
+R37
+!i10b 1
+!s100 CH1_?__mOzgYVEMP7YjZ11
+!s11b d=MQaU]2E`QlGF8K<l3GL3
+I1:O74hH2LNK8h]hUo>[e80
+R2
+S1
+R0
+R19
+8/filespace/r/rcastle/git/ECE552/ReadDecoder_4_16.sv
+F/filespace/r/rcastle/git/ECE552/ReadDecoder_4_16.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R38
+!s107 /filespace/r/rcastle/git/ECE552/ReadDecoder_4_16.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/filespace/r/rcastle/git/ECE552/ReadDecoder_4_16.sv|
+!i113 1
+R20
+R7
+n@read@decoder_4_16
+vRED_16bit
+R37
+!i10b 1
+!s100 nI]Dl3@j2SR?iKEhNTlT;3
+!s11b 8J6BO==FSH<8YID^JdS6f2
+ID==e3okWiH2YjfkD21ZjQ0
+R2
+R0
+R19
+8/filespace/r/rcastle/git/ECE552/RED_16bit.v
+F/filespace/r/rcastle/git/ECE552/RED_16bit.v
+L0 1
+R4
+r1
+!s85 0
+31
+R38
+!s107 /filespace/r/rcastle/git/ECE552/RED_16bit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/filespace/r/rcastle/git/ECE552/RED_16bit.v|
+!i113 1
+R6
+R7
+n@r@e@d_16bit
+vregfile_tb
+R18
+R16
+!i10b 1
+!s100 A>8]0=QlAK=?;=TYRdKgU1
+!s11b a6ZBm>SVB4JB>UQ8l1CZ:3
+IkkT[hO;R_f7aV0J@nQ@IC2
+R2
+S1
+R0
+R14
+8/filespace/r/rcastle/git/ECE552/Testbenches/phase1/RegFile_tb.sv
+F/filespace/r/rcastle/git/ECE552/Testbenches/phase1/RegFile_tb.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R17
+!s107 /filespace/r/rcastle/git/ECE552/Testbenches/phase1/RegFile_tb.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/filespace/r/rcastle/git/ECE552/Testbenches/phase1/RegFile_tb.sv|
+!i113 1
+R20
+R7
+vRegister
+R18
+R37
+!i10b 1
+!s100 @>Q9];NBDK7@3mZEY4]W^3
+!s11b [6c:aN?==8MQ0<zeUOC:`1
+IXGaa6Q5CN`]D2oIX^]AA>0
+R2
+S1
+R0
+R19
+8/filespace/r/rcastle/git/ECE552/Register.sv
+F/filespace/r/rcastle/git/ECE552/Register.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R38
+!s107 /filespace/r/rcastle/git/ECE552/Register.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/filespace/r/rcastle/git/ECE552/Register.sv|
+!i113 1
+R20
+R7
+n@register
+vRegisterFile
+R18
+R21
+!i10b 1
+!s100 _S1XQkDo6@<@XE`[12zOn0
+!s11b dea9<DVlDUY>1jgJ^@dj:0
+IWcU@ZSe>DQYZXkS]:?5Oi0
+R2
+S1
+R0
+w1573787479
+8/filespace/r/rcastle/git/ECE552/RegisterFile.sv
+F/filespace/r/rcastle/git/ECE552/RegisterFile.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R38
+!s107 /filespace/r/rcastle/git/ECE552/RegisterFile.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/filespace/r/rcastle/git/ECE552/RegisterFile.sv|
+!i113 1
+R20
+R7
+n@register@file
+vRotator
+R21
+!i10b 1
+!s100 c3LcV0G>clohVcl<<:EGD3
+!s11b UIK6<B9;_^6d6K?g92?RK2
+IGgo_1:<FIga`M?9C:O`EJ1
+R2
+R0
+R19
+8/filespace/r/rcastle/git/ECE552/Rotator_16bit.v
+F/filespace/r/rcastle/git/ECE552/Rotator_16bit.v
+L0 2
+R4
+r1
+!s85 0
+31
+R24
+!s107 /filespace/r/rcastle/git/ECE552/Rotator_16bit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/filespace/r/rcastle/git/ECE552/Rotator_16bit.v|
+!i113 1
+R6
+R7
+n@rotator
+vShifter
+R21
+!i10b 1
+!s100 h_5gmVXD1bNR^QBm=A9K60
+!s11b oU>_cbGEhRzI5a_ioWae:3
+I=1zT8683Y>U9CnY7=7gmC3
+R2
+R0
+R19
+8/filespace/r/rcastle/git/ECE552/Shifter.v
+F/filespace/r/rcastle/git/ECE552/Shifter.v
+L0 2
+R4
+r1
+!s85 0
+31
+R24
+!s107 /filespace/r/rcastle/git/ECE552/Shifter.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/filespace/r/rcastle/git/ECE552/Shifter.v|
+!i113 1
+R6
+R7
+n@shifter
+vWriteDecoder_4_16
+R18
+R21
+!i10b 1
+!s100 `_9JX2H^V`8?VIfbzMl;R2
+!s11b f`^[5<mg>PkGh7FAG;mRm3
+I;EPnZ@`k;GV7L?3U`0?nA3
+R2
+S1
+R0
+R14
+8/filespace/r/rcastle/git/ECE552/WriteDecoder_4_16.sv
+F/filespace/r/rcastle/git/ECE552/WriteDecoder_4_16.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R24
+!s107 /filespace/r/rcastle/git/ECE552/WriteDecoder_4_16.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/filespace/r/rcastle/git/ECE552/WriteDecoder_4_16.sv|
+!i113 1
+R20
+R7
+n@write@decoder_4_16
